@@ -12,6 +12,7 @@ OpenStack cloud deployments.
    deploy
    contribute
    new-module
+   backporting
    community
    mailing-list
 
