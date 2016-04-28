@@ -12,6 +12,7 @@ OpenStack cloud deployments.
    deploy
    contribute
    community
+   mailing-list
 
 
 .. note:: This documentation is work in progress, we are moving the content
