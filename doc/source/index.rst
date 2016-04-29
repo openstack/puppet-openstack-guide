@@ -15,6 +15,7 @@ OpenStack cloud deployments.
    backporting
    community
    mailing-list
+   testing
 
 
 .. note:: This documentation is work in progress, we are moving the content
