@@ -11,6 +11,7 @@ OpenStack cloud deployments.
    getting-started
    deploy
    contribute
+   new-module
    community
    mailing-list
 
