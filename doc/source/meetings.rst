@@ -2,7 +2,7 @@
 Meetings
 ########
 
-1. `Weekly Puppet OpenStack Team Meeting`_
+1. `Weekly meeting`_
 2. `Next meeting`_
 3. `Previous meetings`_
 4. `Meeting organizers`_

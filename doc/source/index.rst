@@ -17,6 +17,7 @@ OpenStack cloud deployments.
    mailing-list
    testing
    meetings
+   reviews
 
 .. note:: This documentation is work in progress, we are moving the content
           from the `Wiki`_.
