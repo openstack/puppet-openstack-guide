@@ -8,6 +8,7 @@ OpenStack cloud deployments.
 .. toctree::
    :maxdepth: 2
 
+   module-list
    getting-started
    deploy
    contribute
