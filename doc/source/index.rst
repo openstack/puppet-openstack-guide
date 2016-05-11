@@ -19,6 +19,7 @@ OpenStack cloud deployments.
    testing
    meetings
    reviews
+   supported-platforms
 
 .. note:: This documentation is work in progress, we are moving the content
           from the `Wiki`_.
