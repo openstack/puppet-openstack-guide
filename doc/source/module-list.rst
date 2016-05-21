@@ -1,8 +1,13 @@
-OpenStack Module List
-=====================
+============
+Modules List
+============
 
-OpenStack Modules
------------------
+Each Puppet OpenStack module corresponds to an OpenStack component and has its
+own Git repository. The modules produce a number of deliverable, in order to
+achieve a clearly stated objective: deploy OpenStack.
+
+Puppet OpenStack Modules
+========================
 * `Alarming <http://git.openstack.org/cgit/openstack/puppet-aodh/>`_ (*Aodh*)
 * `Key Manager <http://git.openstack.org/cgit/openstack/puppet-barbican/>`_ (*Barbican*)
 * `Telemetry <http://git.openstack.org/cgit/openstack/puppet-ceilometer/>`_ (*Ceilometer*)
@@ -29,18 +34,19 @@ OpenStack Modules
 * `Database Service <http://git.openstack.org/cgit/openstack/puppet-trove/>`_ (*Trove*)
 * `Root Cause Analysis <http://git.openstack.org/cgit/openstack/puppet-vitrage/>`_ (*Vitrage*)
 * `Message Service <http://git.openstack.org/cgit/openstack/puppet-zaqar/>`_ (*Zaqar*)
+* `Monitoring <http://git.openstack.org/cgit/openstack/puppet-monasca/>`_ (*Monasca*)
 
 Other Modules
--------------
+=============
 * `Storage <http://git.openstack.org/cgit/openstack/puppet-ceph/>`_ (*Ceph*)
-* `Monitoring <http://git.openstack.org/cgit/openstack/puppet-monasca/>`_ (*Monasca*)
 * `Virtual Bridging <http://git.openstack.org/cgit/openstack/puppet-vswitch>`_ (*OpenvSwitch*)
 * `TripleO UI <http://git.openstack.org/cgit/openstack/puppet-tuskar/>`_ (*TripleO UI*) (**Deprecated**)
 * `Composition Layer <http://git.openstack.org/cgit/stackforge/puppet-openstack/>`_ (*OpenStack*) (**Deprecated in Juno**)
 
 
 Supporting Puppet Modules
--------------------------
+=========================
+
 * `Common Puppet Library <http://git.openstack.org/cgit/openstack/puppet-openstacklib/>`_ (*OpenStackLib*)
 * `Common Ruby Helper Library <http://git.openstack.org/cgit/openstack/puppet-openstack_spec_helper/>`_ (*puppet-openstack_spec_helper*)
 * `Puppet OpenStack Helpers <http://git.openstack.org/cgit/openstack/puppet-openstack_extras/>`_ (*OpenStackExtras*)

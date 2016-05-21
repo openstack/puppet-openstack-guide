@@ -1,21 +1,24 @@
+.. _coding_style:
+
+============
 Coding Style
-------------
+============
 
-.. note:: this document is work in progress and the content with evolve. Any
-          contribution is welcome though ;-)
+.. note:: this document is work in progress and the content with evolve. Any contribution is welcome though ;-)
 
--  Read this page
--  Make sure that what you're going to code is not already work in
-   progress
--  Make sure you're familiar with Puppet Syntax,
-   `Lint <http://puppet-lint.com/>`__,
-   `Rspec <http://rspec-puppet.com/>`__, and
-   `Beaker <https://github.com/puppetlabs/beaker>`__
--  If you want to create a new module, read
-   `New\_module <http://docs.openstack.org/developer/puppet-openstack-guide/new-module.html>`__
+- Read this page
+- Make sure that what you're going to code is not already work in
+  progress
+- Make sure you're familiar with Puppet Syntax, Lint_, Rspec_ and Beaker_
+- If you want to create a new module, read `New Module <http://docs.openstack.org/developer/puppet-openstack-guide/new-module.html>`_.
+
+.. _Lint: http://puppet-lint.com/
+.. _Rspec: http://rspec-puppet.com/
+.. _Beaker: https://github.com/puppetlabs/beaker
+
 
 Best practices
---------------
+==============
 
 Deprecation
 ~~~~~~~~~~~
@@ -32,7 +35,9 @@ It meansː
 Commit message
 ~~~~~~~~~~~~~~
 
-Please read `GitCommitMessages <GitCommitMessages>`__.
+Please read GitCommitMessages_
+
+.. _GitCommitMessages: https://wiki.openstack.org/wiki/GitCommitMessages
 
 Consistency
 ~~~~~~~~~~~
@@ -62,19 +67,14 @@ is the best choice. Do not useː " (not Puppetish) or false (undef is
 false if tested as a boolean).
 
 Testing
--------
+=======
 
-Testing is required for all new code. Puppet OpenStack CI will
-`verify <http://docs.openstack.org/developer/puppet-openstack-guide/ci.html>`__
-your changes, but to save time it is better to run tests locally before
-submitting the patch.
+Everything about testing you can find here_.
 
--  `Lint <http://puppet-lint.com/>`__
--  `Syntax <https://puppetlabs.com/blog/verifying-puppet-checking-syntax-and-writing-automated-tests>`__
--  `Testing <http://docs.openstack.org/developer/puppet-openstack-guide/testing.html>`__
+.. _here: http://docs.openstack.org/developer/puppet-openstack-guide/testing.html
 
 Documentation
--------------
+=============
 
 -  Validate all parameters are documented. They are required and lint
    will check it.
@@ -83,14 +83,13 @@ Documentation
 -  Comment your code when needed (temporary workarounds, TODO, etc).
 
 Asking for review
------------------
+=================
 
 Different ways to get reviewsː
 
 -  Go on IRC ``#puppet-openstack`` (freenode) and gently ask for
    reviews. If you need to discuss about already reviewed code, you can
    ping the reviewers.
--  Add your patch on the `Puppet OpenStack meeting
-   Agenda <http://docs.openstack.org/developer/puppet-openstack-guide/meetings.html>`__ (in Open Discussion
-   section).
--  Use `Mailing list <http://docs.openstack.org/developer/puppet-openstack-guide/mailing-list.html>`__.
+-  Add your patch on the Puppet OpenStack `meeting <http://docs.openstack.org/developer/puppet-openstack-guide/meetings.html>`_ Agenda (in Open Discussion section).
+-  Use the `Mailing list <http://docs.openstack.org/developer/puppet-openstack-guide/mailing-list.html>`_.
+

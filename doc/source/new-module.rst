@@ -1,13 +1,14 @@
+=====================
 Starting a new module
----------------------
+=====================
 
 On the community side
-~~~~~~~~~~~~~~~~~~~~~
+=====================
 
 Community wise, one should respect the following process to submit a new
 module:
 
--  Send a message to the mailing-list annoucing one's will to create a
+-  Send a message to the mailing-list announcing one's will to create a
    new puppet module for openstack, and wait for the thread to take
    place.
 -  Once a consensus is agreed upon on the mailing list the user can
@@ -22,7 +23,7 @@ For the governance addition please follow the process explained here:
 http://docs.openstack.org/infra/manual/creators.html#add-new-repository-to-the-governance-repository
 
 On the technical side
-~~~~~~~~~~~~~~~~~~~~~
+=====================
 
 The community has developed two projects related to modules file
 management:
@@ -41,7 +42,7 @@ management:
 
 Why two projects? While modulesync makes it easy to keep a set of common
 file synced between projects (Gemfile, Rakefile, nodesets,...), it is
-not intented for dynamic content and path (class name, provider,
+not intended for dynamic content and path (class name, provider,
 etc...), hence the use of cookiecutter and the existence of both
 projects.
 
@@ -50,7 +51,7 @@ Modulesync: https://github.com/openstack/puppet-modulesync-configs
 Cookiecutter: https://github.com/openstack/puppet-openstack-cookiecutter
 
 In practice
-~~~~~~~~~~~
+===========
 
 Requirements :
 

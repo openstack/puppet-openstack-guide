@@ -1,5 +1,8 @@
+.. _mailing_list:
+
+=============
 Mailing lists
--------------
+=============
 
 In general, the mailing list is preferred, because it makes the
 information more readily available so that others who have the same

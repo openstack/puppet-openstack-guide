@@ -1,9 +1,13 @@
-*******
-Reviews
-*******
+.. _reviews:
 
-1. `Review policy`_
-2. `Abandonment`_
+=======
+Reviews
+=======
+
+#. `Review policy`_
+#. `Abandonment`_
+#. `Guidelines for code-reviewers <http://docs.openstack.org/infra/manual/developers.html#peer-review>`__
+#. `Puppet Code reviews (Gerrit) <https://goo.gl/HWfFuX>`__
 
 
 Review policy

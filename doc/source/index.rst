@@ -7,20 +7,14 @@ OpenStack cloud deployments.
 
 .. toctree::
    :maxdepth: 2
+   :includehidden:
 
-   module-list
    getting-started
-   deploy
-   contribute
-   new-module
-   backporting
+   how-to-contribute
    community
-   mailing-list
-   testing
-   meetings
-   reviews
-   supported-platforms
-   coding-style
+   talk-to-us
+   module-list
+   ci
    releases
 
 .. note:: This documentation is work in progress, we are moving the content
