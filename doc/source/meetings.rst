@@ -20,24 +20,29 @@ If you're interested in Puppet OpenStack, we hold public meetings weekly on
    * - Meeting Time
      - Local Time
    * - UTC 1500 Tuesdays
-     - http://www.timeanddate.com/worldclock/fixedtime.html?msg=Puppet+Meeting&iso=20160531T15
+     - http://www.timeanddate.com/worldclock/fixedtime.html?msg=Puppet+Meeting&iso=20160607T15
 
 
 
 Next meeting
 ============
 
-- `Tuesday May 31, 2016 @ 1500 UTC
+- `Tuesday Jun 07, 2016 @ 1500 UTC
   <http://www.timeanddate.com/worldclock/fixedtime.html?msg=Puppet+Meeting&iso
-  =20160531T15>`_ on ``#openstack-meeting-4`` on freenode
+  =20160607T15>`_ on ``#openstack-meeting-4`` on freenode
 
 Agenda
 ------
 
-https://etherpad.openstack.org/p/puppet-openstack-weekly-meeting-20160531
+https://etherpad.openstack.org/p/puppet-openstack-weekly-meeting-20160607
 
 Previous meetings
 =================
+- Meeting #83 | 07 Jun, 2016 | `log
+  <http://eavesdrop.openstack.org/meetings/puppet_openstack/2016/puppet_
+  openstack.2016-05-31-15.00.log.html>`_ | `agenda
+  <https://etherpad.openstack.org/p/puppet-openstack-weekly-meeting-
+  20160531>`_
 - Meeting #82 | 24 May, 2016 | `log
   <http://eavesdrop.openstack.org/meetings/puppet_openstack/2016/puppet_
   openstack.2016-05-24-15.00.log.html>`_ | `agenda
