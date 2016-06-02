@@ -6,4 +6,5 @@ To build the guide, execute the following command::
   $ tox
 
 After running ``tox``, the documentation will be available for viewing
-in HTML format in the ``doc/build/`` directory.
+in HTML format in the ``doc/build/`` directory. View these new documents
+in your favorite web browser.
