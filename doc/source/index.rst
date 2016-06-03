@@ -17,12 +17,6 @@ OpenStack cloud deployments.
    ci
    releases
 
-.. note:: This documentation is work in progress, we are moving the content
-          from the `Wiki`_.
-
-.. _`Wiki`: https://wiki.openstack.org/wiki/Puppet
-
-
 ====================
  Indices and tables
 ====================
