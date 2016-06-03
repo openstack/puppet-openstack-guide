@@ -117,7 +117,7 @@ Steps to release a Puppet moduleː
 -  Push the tag and generate Puppetforge artifact. You can use `some
    tools <https://gist.github.com/EmilienM/ecafa712fdab9f9942b3#file-release_pupet_modules-sh>`__
    to automate it.
--  Update `Release table <Puppet/releases#Modules_releases>`__
+-  Update `Release table <#modules-releases>`__
 -  Upload the artifact to `Puppetlabs
    forge <https://forge.puppetlabs.com/openstack>`__
 -  Update launchpad projects with `some
