@@ -42,7 +42,7 @@ Previous meetings
 =================
 - Meeting #84 | 07 Jun, 2016 | `log
   <http://eavesdrop.openstack.org/meetings/puppet_openstack/2016/puppet_
-  openstack.2016-06-07-15.00.html>`_ | `agenda
+  openstack.2016-06-07-15.00.log.html>`_ | `agenda
   <https://etherpad.openstack.org/p/puppet-openstack-weekly-meeting-
   20160607>`_
 - Meeting #83 | 31 May, 2016 | `log
