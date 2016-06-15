@@ -56,6 +56,6 @@ Supporting Puppet Modules
 * `Common Ruby Helper Library <http://git.openstack.org/cgit/openstack/puppet-openstack_spec_helper/>`_ (*puppet-openstack_spec_helper*)
 * `Puppet OpenStack Helpers <http://git.openstack.org/cgit/openstack/puppet-openstack_extras/>`_ (*OpenStackExtras*)
 * `Integration CI Tools <http://git.openstack.org/cgit/openstack/puppet-openstack-integration>`_ (*Puppet OpenStack Integration*)
-* `Blueprints <http://git.openstack.org/cgit/openstack/puppet-openstack-specs Blueprints>`_ (*Puppet OpenStack Specs*) (hosted `here <http://specs.openstack.org/openstack/puppet-openstack-specs/>`_)
+* `Blueprints <http://git.openstack.org/cgit/openstack/puppet-openstack-specs>`_ (*Puppet OpenStack Specs*) (hosted `here <http://specs.openstack.org/openstack/puppet-openstack-specs/>`_)
 * `New Module Cookiecutter Template <http://git.openstack.org/cgit/openstack/puppet-openstack-cookiecutter>`_ (*Cookiecutter*)
 * `Sync Tool <http://git.openstack.org/cgit/openstack/puppet-modulesync-configs>`_ (*Modulesync*)
