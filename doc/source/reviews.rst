@@ -17,7 +17,7 @@ Code is merged based on the voting process of the modules in Gerrit. All
 submitted patches automatically trigger a job that runs its rspec-puppet
 tests. This job is considered to be a gate in that no code is allowed to be
 merged that does not pass these tests. The results of this job are listed for
-every patch as a +1 Verified vote from Jenkis.
+every patch as a +1 Verified vote from Jenkins.
 
 Any users can +/- 1 a commit and add comments on commit, but only members of
 the puppet-manager-core group have the ability to +2 and approve code to be

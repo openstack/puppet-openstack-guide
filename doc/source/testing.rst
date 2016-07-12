@@ -5,7 +5,7 @@ Testing
 =======
 
 Testing is required for all new code. If you want to contribute, but are
-unfamiliar with the tests we use, take a time and visit `Unit Tests`_
+unfamiliar with the tests we use, take the time to visit the `Unit Tests`_
 and `Functional Tests`_ sections and the |ci|_ documentation.
 
 
@@ -19,14 +19,14 @@ better to run tests locally before submitting the patch.
 Unit Tests
 ==========
 
-Unit tests are written in ruby, so you need to be familiar with Rspec, below
+Unit tests are written in ruby, so you need to be familiar with RSpec. Below
 you can find useful commands to test your code.
 
-Running Rspec
+Running RSpec
 -------------
 
 The following command can be invoked in any module directories to run their
-rspec tests (|lint|_, |syntax|_, spec, acceptance, etc). It assumes that both
+RSpec tests (|lint|_, |syntax|_, spec, acceptance, etc). It assumes that both
 bundler as well as rubygems (and ruby) are already installed on the system.
 
 .. _lint: http://puppet-lint.com/
@@ -44,8 +44,8 @@ bundler as well as rubygems (and ruby) are already installed on the system.
     bundle exec rake acceptance # Run acceptance tests
 
 
-This relies on the Puppetfile to install all of the external module
-required for testing. The url in this file use the git:// protocol, so this
+This relies on the Puppetfile to install all of the external modules
+required for testing. The url in this file uses the git:// protocol, so this
 may need to be updated if you are behind a proxy.
 
 .. note::
@@ -108,5 +108,5 @@ Running beaker
 
 |
 
-The last command runs beaker tests by installing & testing the OpenStack
+The last command runs beaker tests by installing and testing the OpenStack
 service.

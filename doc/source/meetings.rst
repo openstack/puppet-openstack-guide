@@ -417,20 +417,20 @@ Meeting organizers
 
 You're chairing the meeting? No worries, it's very simple.
 
-- Send to the mailing-list a reminder about the meeting, 24 hours before, with
-  a link to the etherpad. The etherpad usually reminds the URLs from previous
-  meeting notes, the list of actions that were taken, a list of items and a
-  section for Open Discussion.
+- Send a reminder to the mailing-list about the meeting 24 hours beforehand,
+  with a link to the etherpad. The etherpad usually contains the URLs from
+  previous meeting notes, the list of actions that were taken, a list of items
+  and a section for Open Discussion.
 - The meeting is starting, start by giving the link of the agenda, using #link
   agenda <...>
 - Wait a little, so people have time to join the meeting.
 - Start by reviewing the past actions and make sure all actions have been
   addressed or postpone them.
-- Then, start the topics. Each item is a topic and is announce with #topic
+- Then, start the topics. Each item is a topic and is announced with the #topic
   command.
 - Record by using #action or #info decisions and commitments; review actions
   in the next meeting.
-- Keep the scheduleǃ if you feel like a topic is taking too much time, don't
+- Keep the scheduleǃ If you feel like a topic is taking too much time, don't
   hesitate to follow-up on the mailing-list or on IRC later.
 - After the meeting, send the notes to the mailing-list, following-up the
   meeting announcement and also update this wiki page with next meeting

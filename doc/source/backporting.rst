@@ -1,7 +1,7 @@
 Backporting
 ===========
 
-This page documents Puppet OpenStack backport policy.
+This page documents the Puppet OpenStack backport policy.
 
 Can be backported
 -----------------

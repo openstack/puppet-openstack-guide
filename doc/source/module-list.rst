@@ -3,7 +3,7 @@ Modules List
 ============
 
 Each Puppet OpenStack module corresponds to an OpenStack component and has its
-own Git repository. The modules produce a number of deliverable, in order to
+own Git repository. The modules produce a number of deliverables, in order to
 achieve a clearly stated objective: deploy OpenStack.
 
 Puppet OpenStack Modules

@@ -4,10 +4,10 @@
 Coding Style
 ============
 
-.. note:: this document is work in progress and the content with evolve. Any contribution is welcome though ;-)
+.. note:: this document is a work in progress and the content will evolve. Any contribution is welcome though ;-)
 
 - Read this page
-- Make sure that what you're going to code is not already work in
+- Make sure that what you're going to code is not already a work in
   progress
 - Make sure you're familiar with Puppet Syntax, Lint_, Rspec_ and Beaker_
 - If you want to create a new module, read `New Module <http://docs.openstack.org/developer/puppet-openstack-guide/new-module.html>`_.
@@ -61,7 +61,7 @@ removing any existing value from the config file.
 Empty parameters
 ~~~~~~~~~~~~~~~~
 
-When you need to specify a empty (nil) parameter, using
+When you need to specify an empty (nil) parameter, using
 `undef <https://docs.puppetlabs.com/puppet/latest/reference/lang_data_undef.html>`__
 is the best choice. Do not useː " (not Puppetish) or false (undef is
 false if tested as a boolean).

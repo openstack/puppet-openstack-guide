@@ -1,6 +1,6 @@
-==================================
-Welcome to Puppet OpenStack Guide!
-==================================
+======================================
+Welcome to the Puppet OpenStack Guide!
+======================================
 
 Puppet OpenStack modules bring scalable and reliable IT automation to
 OpenStack cloud deployments.

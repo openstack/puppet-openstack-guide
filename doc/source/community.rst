@@ -17,7 +17,7 @@ PTL duty
 ========
 
 While the official OpenStack PTL duty `guide`_ is general, the Puppet
-OpenStack PTL has usually in charge:
+OpenStack PTL is usually in charge of:
 
 * community management by keeping abreast of upcoming meetings
   (summits, OPS meetups) where it would be interesting for our

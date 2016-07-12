@@ -5,8 +5,8 @@ Continuous Integration
 ######################
 
 
-This is a list of the CI jobs that are running against most of Puppet
-OpenStack modules: The code that configure Jenkins jobs is hosted by
+This is a list of the CI jobs that are running against most of the Puppet
+OpenStack modules: The code that configures Jenkins jobs is hosted by
 `project-config
 <http://git.openstack.org/cgit/openstack-infra/project-config/tree/jenkins
 /jobs/puppet-module-jobs.yaml>`__.
@@ -27,24 +27,24 @@ OpenStack modules: The code that configure Jenkins jobs is hosted by
        style.
    * - gate-puppet--puppet-syntax-{3,4}
      - Syntax checks for Puppet manifests, templates, and Hiera YAML. The jobs
-       runs on latest Puppet 3.x and 4.x releases.
+       run on the latest Puppet 3.x and 4.x releases.
      - Yes
      - Read the job logs to see where the code does not follow the Puppet
        syntax style.
    * - gate-puppet--puppet-unit-{3.4,3.6,3.7,3.8,4.0}
-     - RSpec tests for Puppet manifests. The jobs runs on Puppet 3.4, 3.6,
+     - RSpec tests for Puppet manifests. The jobs run on Puppet 3.4, 3.6,
        3.7, 3.8 and 4.0.
      - Yes
      - Read the job logs to see where the tests are failing. `More
        documentation about RSpec <http://rspec-puppet.com/tutorial/>`__
    * - gate-puppet--puppet-unit-latest
-     - RSpec tests for Puppet manifests. The jobs runs on the latest version
+     - RSpec tests for Puppet manifests. The jobs run on the latest version
        of Puppet. It aims to be experimental to track any work to do in the
        module to be compatible with the latest release of Puppet.
      - No
      - Read the job logs to see where the tests are failing. Even though the
-       job is not voting, please raise a bug in Launchpad to make sure someone
-       have a look and maybe update the module to work with latest version of
+       job is non-voting, please raise a bug in Launchpad to make sure someone
+       has a look and maybe update the module to work with latest version of
        Puppet.
    * - gate-puppet--puppet-beaker-rspec-dsvm-{centos7,trusty}
      - Beaker jobs to do functional testing. It will prepare the Puppet
