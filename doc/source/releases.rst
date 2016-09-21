@@ -101,26 +101,23 @@ Puppetlabs releases
 How to release Puppet modules
 =============================
 
-Steps to release a Puppet moduleː
+- For all modules that need to be released, update metadata.json and reno configuration.
+  Example with https://review.openstack.org/#/c/371645
 
--  Use `the
-   spreadsheet <https://docs.google.com/spreadsheets/d/1XVrmEiLrJSdxDo-S_vFB7ljxTdYg-pe8hiMUryRor5A/edit#gid=0>`__
-   to synchronize the work.
--  Make sure there is no blocking patch under review (ieː critical bug)
--  Update README with the new release codename & version number
--  Update CHANGELOG. You can use `some
-   tools <https://gist.github.com/EmilienM/ecafa712fdab9f9942b3#file-diff_master-sh>`__
-   to easily get git diff between branches.
--  Create the stable branch in Gerrit if needed. See
-   "https://review.openstack.org/#/admin/projects/openstack/puppet-XX,branches"
-   (XX is the module name)
--  Push the tag and generate Puppetforge artifact. You can use `some
-   tools <https://gist.github.com/EmilienM/ecafa712fdab9f9942b3#file-release_pupet_modules-sh>`__
-   to automate it.
--  Update `Release table <#modules-releases>`__
--  Upload the artifact to `Puppetlabs
-   forge <https://forge.puppetlabs.com/openstack>`__
--  Update launchpad projects with `some
-   tools <https://github.com/mgagne/openstack-puppet-release-tools>`__
-   to automate it.
--  Make public announcement on openstack-dev using [puppet] tag
+- Submit a release request in openstack/releases project.
+  Example with https://review.openstack.org/#/c/371965
+
+Once the release is done, you can see the tarballs here:
+https://tarballs.openstack.org
+
+If a new branch has been created, some tasks need to be done:
+
+- Branch openstack/puppet-openstack-integration
+
+- For all modules and openstack/puppet-openstack-integration, Puppetfile + Gemfile to use the
+  new branch, also update .gitreview. Note: the patch has to be done in stable/newton.
+
+- Branch openstack/puppet-openstack_spec_helper and update CI scripts to checkout stable,
+  also rake_tasks.rb and beaker_spec_helper.rb to checkout the new branch, .gitreview file
+  and release notes to have a page for the stable release, looking for notes in the stable
+  branch. Note: the patch has to be done in stable/newton.
