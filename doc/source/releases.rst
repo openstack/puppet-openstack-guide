@@ -106,6 +106,7 @@ How to release Puppet modules
 
 - Submit a release request in openstack/releases project.
   Example with https://review.openstack.org/#/c/371965
+.. note:: puppet-ceph should be done separately because the branches track ceph releases and not openstack releases.
 
 Once the release is done, you can see the tarballs here:
 https://tarballs.openstack.org
