@@ -22,24 +22,29 @@ If you're interested in Puppet OpenStack, we hold public meetings weekly on
    * - Meeting Time
      - Local Time
    * - UTC 1500 Tuesdays
-     - http://www.timeanddate.com/worldclock/fixedtime.html?msg=Puppet+Meeting&iso=20161220T15
+     - http://www.timeanddate.com/worldclock/fixedtime.html?msg=Puppet+Meeting&iso=20170110T15
 
 
 
 Next meeting
 ============
 
-- `Tuesday December 20, 2016 @ 1500 UTC
+- `Tuesday January 10, 2017 @ 1500 UTC
   <http://www.timeanddate.com/worldclock/fixedtime.html?msg=Puppet+Meeting&iso
-  =20161220T15>`_ on ``#openstack-meeting-4`` on freenode
+  =20170110T15>`_ on ``#openstack-meeting-4`` on freenode
 
 Agenda
 ------
 
-https://etherpad.openstack.org/p/puppet-openstack-weekly-meeting-20161220
+https://etherpad.openstack.org/p/puppet-openstack-weekly-meeting-20170110
 
 Previous meetings
 =================
+- Meeting #102 | 20 December, 2016 | `log
+  <http://eavesdrop.openstack.org/meetings/puppet_openstack/2016/puppet_
+  openstack.2016-12-20-15.01.log.html>`_ | `agenda
+  <https://etherpad.openstack.org/p/puppet-openstack-weekly-meeting-
+  20161220>`_
 - Meeting #101 | 13 December, 2016 | `log
   <http://eavesdrop.openstack.org/meetings/puppet_openstack/2016/puppet_
   openstack.2016-12-13-15.00.log.html>`_ | `agenda
