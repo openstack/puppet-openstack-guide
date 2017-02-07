@@ -103,10 +103,14 @@ FIXME tag. The impacted files are:
 
 **Step 6: Create launchpad project**
 
+See `OpenStack Infra guide <http://docs.openstack.org/infra/manual/creators.html#set-up-launchpad>`_
+for setting up launchpad.
+
 Each Puppet module has it own Launchpad project.
 The project should be part of "openstack", Driver "hudson-openstack",
 Maintainer "puppet-openstack", Bug supervisor "puppet-openstack-bugs".
 See https://launchpad.net/puppet-nova for example.
+
 
 Now you only have to run git review in the folder indicated in the
 output of the script.
