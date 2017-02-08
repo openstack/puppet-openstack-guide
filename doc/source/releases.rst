@@ -24,13 +24,17 @@ Releases Summary
 +----------------------------+------------------------------+------------------------+
 | 6.z.y                      | Kilo                         | no - EOL (2016-05-02)  |
 +----------------------------+------------------------------+------------------------+
-| 7.z.y                      | Liberty                      | yes                    |
+| 7.z.y                      | Liberty                      | no - EOL (2016-11-17)  |
 +----------------------------+------------------------------+------------------------+
 | 8.z.y                      | Mitaka                       | yes                    |
 +----------------------------+------------------------------+------------------------+
 | 9.z.y                      | Newton                       | yes                    |
 +----------------------------+------------------------------+------------------------+
-| 10.z.y                     | Ocata                        | yes (current master)   |
+| 10.z.y                     | Ocata                        | yes                    |
++----------------------------+------------------------------+------------------------+
+| 11.z.y                     | Pike                         | yes (current master)   |
++----------------------------+------------------------------+------------------------+
+| 12.z.y                     | Queens                       | Future                 |
 +----------------------------+------------------------------+------------------------+
 
 Most Recent Modules releases
@@ -39,89 +43,91 @@ Most Recent Modules releases
 +---------------------------------+----------------------------------------------------------------------------------+
 | Module Name                     | Last Release                                                                     |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-aodh_                    | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-aodh/>`__                 |
+| puppet-aodh_                    | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-aodh/>`__                 |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-barbican_                | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-barbican/>`__             |
+| puppet-barbican_                | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-barbican/>`__             |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-ceilometer_              | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-ceilometer/>`__           |
+| puppet-ceilometer_              | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-ceilometer/>`__           |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-ceph_                    | `2.2.1 <http://docs.openstack.org/releasenotes/puppet-ceph/>`__                  |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-cinder_                  | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-cinder/>`__               |
+| puppet-cinder_                  | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-cinder/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-cloudkitty_              | None                                                                             |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-congress_                | None                                                                             |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-designate_               | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-designate/>`__            |
+| puppet-designate_               | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-designate/>`__            |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-ec2api_                  | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-ec2api/>`__               |
+| puppet-ec2api_                  | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-ec2api/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-glance_                  | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-glance/>`__               |
+| puppet-glance_                  | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-glance/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-glare_                   | None                                                                             |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-gnocchi_                 | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-gnocchi/>`__              |
+| puppet-gnocchi_                 | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-gnocchi/>`__              |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-heat_                    | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-heat/>`__                 |
+| puppet-heat_                    | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-heat/>`__                 |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-horizon_                 | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-horizon/>`__              |
+| puppet-horizon_                 | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-horizon/>`__              |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-ironic_                  | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-ironic/>`__               |
+| puppet-ironic_                  | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-ironic/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-keystone_                | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-keystone/>`__             |
+| puppet-keystone_                | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-keystone/>`__             |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-magnum_                  | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-magnum/>`__               |
+| puppet-magnum_                  | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-magnum/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-manila_                  | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-manila/>`__               |
+| puppet-manila_                  | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-manila/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-mistral_                 | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-mistral/>`__              |
+| puppet-mistral_                 | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-mistral/>`__              |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-murano_                  | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-murano/>`__               |
+| puppet-murano_                  | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-murano/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-neutron_                 | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-neutron/>`__              |
+| puppet-neutron_                 | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-neutron/>`__              |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-nova_                    | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-nova/>`__                 |
+| puppet-nova_                    | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-nova/>`__                 |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-octavia_                 | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-octavia/>`__              |
+| puppet-octavia_                 | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-octavia/>`__              |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-openstack-cookiecutter_  | None                                                                             |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-openstack-integration_   | None                                                                             |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-openstack_extras_        | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-openstack_extras/>`__     |
+| puppet-openstack_extras_        | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-openstack_extras/>`__     |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-openstack_spec_helper_   | `9.0.0 <http://docs.openstack.org/releasenotes/puppet-openstack_spec_helper/>`__ |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-openstacklib_            | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-openstacklib/>`__         |
+| puppet-openstacklib_            | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-openstacklib/>`__         |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-oslo_                    | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-oslo/>`__                 |
+| puppet-oslo_                    | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-oslo/>`__                 |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-ovn_                     | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-ova/>`__                  |
+| puppet-ovn_                     | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-ova/>`__                  |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-panko_                   | None                                                                             |
+| puppet-pacemaker_               | `0.4.0 <http://docs.openstack.org/releasenotes/puppet-pacemaker/>`__             |
++---------------------------------+----------------------------------------------------------------------------------+
+| puppet-panko_                   | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-panko/>`__                |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-qdr_                     | None                                                                             |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-rally_                   | None                                                                             |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-sahara_                  | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-sahara/>`__               |
+| puppet-sahara_                  | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-sahara/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-swift_                   | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-swift/>`__                |
+| puppet-swift_                   | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-swift/>`__                |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-tacker_                  | None                                                                             |
+| puppet-tacker_                  | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-tacker/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-tempest_                 | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-tempest/>`__              |
+| puppet-tempest_                 | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-tempest/>`__              |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-trove_                   | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-trove/>`__                |
+| puppet-trove_                   | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-trove/>`__                |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-vitrage_                 | None                                                                             |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-vswitch_                 | `6.0.0 <http://docs.openstack.org/releasenotes/puppet-vswitch/>`__               |
+| puppet-vswitch_                 | `6.3.0 <http://docs.openstack.org/releasenotes/puppet-vswitch/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-watcher_                 | `10.0.0 <http://docs.openstack.org/releasnotes/puppet-watcher/>`__               |
+| puppet-watcher_                 | `10.3.0 <http://docs.openstack.org/releasnotes/puppet-watcher/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-zaqar_                   | `10.0.0 <http://docs.openstack.org/releasenotes/puppet-zaqar/>`__                |
+| puppet-zaqar_                   | `10.3.0 <http://docs.openstack.org/releasenotes/puppet-zaqar/>`__                |
 +---------------------------------+----------------------------------------------------------------------------------+
 
 .. _puppet-aodh: https://git.openstack.org/cgit/openstack/puppet-aodh
@@ -154,6 +160,7 @@ Most Recent Modules releases
 .. _puppet-openstacklib: https://git.openstack.org/cgit/openstack/puppet-openstacklib
 .. _puppet-oslo: https://git.openstack.org/cgit/openstack/puppet-oslo
 .. _puppet-ovn: https://git.openstack.org/cgit/openstack/puppet-ovn
+.. _puppet-pacemaker: https://git.openstack.org/cgit/openstack/puppet-pacemaker
 .. _puppet-panko: https://git.openstack.org/cgit/openstack/puppet-panko
 .. _puppet-qdr: https://git.openstack.org/cgit/openstack/puppet-qdr
 .. _puppet-rally: https://git.openstack.org/cgit/openstack/puppet-rally
@@ -194,12 +201,12 @@ If a new branch has been created, some tasks need to be done:
 
 - Branch openstack/puppet-openstack-integration http://docs.openstack.org/infra/manual/drivers.html#create-stable-branch
 
-- For all modules and openstack/puppet-openstack-integration, Puppetfile + Gemfile to use the
-  new branch, also update .gitreview. Note: the patch has to be done in stable/newton.
-  Example with https://review.openstack.org/#/c/377931/
-
 - Branch openstack/puppet-openstack_spec_helper and update CI scripts to checkout stable,
   also rake_tasks.rb and beaker_spec_helper.rb to checkout the new branch, .gitreview file
   and release notes to have a page for the stable release, looking for notes in the stable
   branch. Note: the patch has to be done in stable/newton.
   Example with https://review.openstack.org/#/c/377951/
+
+- For all modules and openstack/puppet-openstack-integration, Puppetfile + Gemfile to use the
+  new branch, also update .gitreview. Note: the patch has to be done in stable/newton.
+  Example with https://review.openstack.org/#/c/377931/
