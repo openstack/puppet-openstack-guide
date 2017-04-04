@@ -29,17 +29,22 @@ If you're interested in Puppet OpenStack, we hold public meetings weekly on
 Next meeting
 ============
 
-- `Tuesday March 14, 2017 @ 1500 UTC
+- `Tuesday April 11, 2017 @ 1500 UTC
   <http://www.timeanddate.com/worldclock/fixedtime.html?msg=Puppet+Meeting&iso
-  =20170314T15>`_ on ``#openstack-meeting-4`` on freenode
+  =20170411T15>`_ on ``#openstack-meeting-4`` on freenode
 
 Agenda
 ------
 
-https://etherpad.openstack.org/p/puppet-openstack-weekly-meeting-20170314
+https://etherpad.openstack.org/p/puppet-openstack-weekly-meeting-20170411
 
 Previous meetings
 =================
+- Meeting #109 | 04 April, 2017 | `log
+  <http://eavesdrop.openstack.org/meetings/puppet_openstack/2017/puppet_
+  openstack.2017-04-04-15.01.log.html>`_ | `agenda
+  <https://etherpad.openstack.org/p/puppet-openstack-weekly-meeting-
+  20170404>`_
 - Meeting #108 | 07 March, 2017 | `log
   <http://eavesdrop.openstack.org/meetings/puppet_openstack/2017/puppet_
   openstack.2017-03-07-15.01.log.html>`_ | `agenda
