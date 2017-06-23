@@ -1,25 +1,24 @@
-======================================
 Welcome to the Puppet OpenStack Guide!
 ======================================
 
 Puppet OpenStack modules bring scalable and reliable IT automation to
 OpenStack cloud deployments.
 
+Contributor Guide
+-----------------
+
 .. toctree::
    :maxdepth: 2
    :includehidden:
 
-   getting-started
-   how-to-contribute
-   community
-   talk-to-us
-   module-list
-   ci
-   releases
+   contributor/index
 
-====================
- Indices and tables
-====================
+Install Guide
+-------------
 
-* :ref:`genindex`
-* :ref:`search`
+.. toctree::
+   :maxdepth: 2
+   :includehidden:
+
+   install/index
+
