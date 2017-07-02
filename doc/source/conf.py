@@ -12,7 +12,6 @@
 import datetime
 import sys
 import os
-import openstackdocstheme
 
 from jinja2.utils import Markup
 
@@ -28,7 +27,8 @@ from jinja2.utils import Markup
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.autodoc',
+extensions = ['openstackdocstheme',
+              'sphinx.ext.autodoc',
               'sphinx.ext.todo',
               'sphinx.ext.viewcode', ]
 
@@ -102,7 +102,7 @@ html_theme = 'openstackdocs'
 #html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = [openstackdocstheme.get_html_theme_path()]
+# html_theme_path = []
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -122,8 +122,7 @@ html_theme_path = [openstackdocstheme.get_html_theme_path()]
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
-git_cmd = "git log --pretty=format:'%ad, commit %h' --date=local -n1"
-html_last_updated_fmt = os.popen(git_cmd).read()
+html_last_updated_fmt = '%Y-%m-%d %H:%M'
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
