@@ -4,16 +4,17 @@
 Meetings
 ########
 
-1. `Weekly meeting`_
+1. `IRC meetings`_
 2. `Next meeting`_
 3. `Previous meetings`_
 4. `Meeting organizers`_
 
-Weekly meeting
-==============
+IRC meetings
+============
 
-If you're interested in Puppet OpenStack, we hold public meetings weekly on
-``#openstack-meeting-4`` on freenode.
+If you're interested in Puppet OpenStack, we hold public meetings as needed on
+``#puppet-openstack`` on freenode.  If a meeting is going to be held, it will
+be announced on the OpenStack-dev mailing list.
 
 .. list-table::
    :widths: 25 75
@@ -21,25 +22,15 @@ If you're interested in Puppet OpenStack, we hold public meetings weekly on
 
    * - Meeting Time
      - Local Time
-   * - UTC 1500 Tuesdays
-     - http://www.timeanddate.com/worldclock/fixedtime.html?msg=Puppet+Meeting&iso=20170718T15
-
-
-
-Next meeting
-============
-
-- `Tuesday July 18, 2017 @ 1500 UTC
-  <http://www.timeanddate.com/worldclock/fixedtime.html?msg=Puppet+Meeting&iso
-  =20170718T15>`_ on ``#openstack-meeting-4`` on freenode
-
-Agenda
-------
-
-https://etherpad.openstack.org/p/puppet-openstack-weekly-meeting-20170718
+   * - UTC 1500 Tuesdays as needed
 
 Previous meetings
 =================
+- Meeting #113 | 01 August, 2017 | `log
+  <http://eavesdrop.openstack.org/meetings/puppet_openstack/2017/puppet_
+  openstack.2017-08-01-15.00.log.html>`_ | `agenda
+  <https://etherpad.openstack.org/p/puppet-openstack-weekly-meeting-
+  20170801>`_
 - Meeting #112 | 11 July, 2017 | `log
   <http://eavesdrop.openstack.org/meetings/puppet_openstack/2017/puppet_
   openstack.2017-07-11-15.01.log.html>`_ | `agenda
