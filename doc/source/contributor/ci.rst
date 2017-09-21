@@ -25,13 +25,13 @@ OpenStack modules: The code that configures Jenkins jobs is hosted by
      - Yes
      - Read the job logs to see where the code does not follow the Puppet lint
        style.
-   * - gate-puppet-puppet-syntax-{3,4}
+   * - gate-puppet-puppet-syntax-4
      - Syntax checks for Puppet manifests, templates, and Hiera YAML. The jobs
-       run on the latest Puppet 3.x and 4.x releases.
+       run on the latest Puppet 4.x release.
      - Yes
      - Read the job logs to see where the code does not follow the Puppet
        syntax style.
-   * - gate-puppet-puppet-unit-{3.6,3.8,4.5}
+   * - gate-puppet-puppet-unit-{4.8}
      - RSpec tests for Puppet manifests.
      - Yes
      - Read the job logs to see where the tests are failing. `More
@@ -45,7 +45,7 @@ OpenStack modules: The code that configures Jenkins jobs is hosted by
        job is non-voting, please raise a bug in Launchpad to make sure someone
        has a look and maybe update the module to work with latest version of
        Puppet.
-   * - gate-puppet-puppet-beaker-rspec-dsvm-{centos7,trusty,xenial}
+   * - gate-puppet-puppet-beaker-rspec-{centos7,xenial}
      - Beaker jobs to do functional testing. It will prepare the Puppet
        environment on 2 different systems (CentOS 7 and Ubuntu Trusty), run
        Puppet to configure the module resources and run some tests with
@@ -57,8 +57,7 @@ OpenStack modules: The code that configures Jenkins jobs is hosted by
        current tests or you'll have to adapt the tests to change the expected
        behavior. `More documentation about Beaker
        <https://github.com/puppetlabs/beaker/wiki>`__
-   * - gate-puppet-openstack-integration-{3,4}-scenarioX-tempest-dsvm-{centos7
-       ,trusty,xenial}
+   * - gate-puppet-openstack-integration-4-scenarioX-tempest-{centos7,xenial}
      - Functional testing jobs that will deploy OpenStack run tempest smoke to
        validate OpenStack is actually working when deploying with Puppet 3 and 4 versions.
        More details `here <https://github.com/openstack/puppet-openstack-integration#description>`__
