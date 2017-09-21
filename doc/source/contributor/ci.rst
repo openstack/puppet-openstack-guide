@@ -74,26 +74,3 @@ OpenStack modules: The code that configures Jenkins jobs is hosted by
      - If it's not a TripleO CI downtime, you can dig into
        logs/postci.txt.gz to see why catalog is failing (grep Error).
        Also make sure to consult the `status of TripleO CI <http://tripleo.org/cistatus.html>`__.
-   * - puppet-openstack.fuel-library.pkgs.ubuntu.{neutron\_vlan\_ha,smoke\_neutron}
-     - Deploy OpenStack cloud on top of libvirt VMs using `Fuel
-       <https://wiki.openstack.org/wiki/Fuel>`__ and Puppet OpenStack modules.
-       More details `here
-       <https://wiki.openstack.org/wiki/Fuel/CI#CI_for_Puppet_OpenStack>`__
-     - No
-     - You can read the job logs and take a look into diagnostic snapshot
-       attached to the build, however it takes some understanding of Fuel
-       mechanics to make a good use of this logs. Fuel engineers will
-       investigate the failure according to `Fuel CI duty for Puppet OpenStack
-       <https://wiki.openstack.org/wiki/Fuel/CI/Puppet_OpenStack_CI_duty>`__
-       and may contact you to discuss the reason behind failure. Feel free to
-       aks any questions on #fuel-dev at freenode.
-   * - puppet-openstack.fuel.noop
-     - Read the job logs. Fuel engineers will investigate the failure
-       according to `Fuel CI duty for Puppet OpenStack
-       <https://wiki.openstack.org/wiki/Fuel/CI/Puppet_OpenStack_CI_duty>`__
-       and may contact you to discuss the reason behind failure. Feel free to
-       aks any questions on #fuel-dev at freenode.
-     - No
-     - Run `Fuel-library <https://github.com/openstack/fuel-library>`__ noop
-       tests against Puppet OpenStack modules. More details `here
-       <http://fuel-noop-fixtures.readthedocs.org/en/latest/>`_
