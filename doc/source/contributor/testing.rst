@@ -35,9 +35,7 @@ bundler as well as rubygems (and ruby) are already installed on the system.
 .. |syntax| replace:: *syntax*
 .. code-block:: bash
 
-    mkdir vendor
-    export GEM_HOME=vendor
-    bundle install
+    bundle install --path ~/vendor/bundle # install all deps in ~/vendor/bundle
     bundle exec rake lint # Run puppet-lint
     bundle exec rake syntax # Syntax check Puppet manifests and templates
     bundle exec rake spec # Run spec tests in a clean fixtures directory
@@ -48,10 +46,42 @@ This relies on the Puppetfile to install all of the external modules
 required for testing. The url in this file uses the git:// protocol, so this
 may need to be updated if you are behind a proxy.
 
+Please note you might need to install some system dependencies in order to
+allow bundle to install the gems.
+
+.. note::
+
+  The ~/vendor/bundle directory will contain all the dependencies, and can be shared with
+  multiple projects. Doing so avoids duplication.
+
+  In case you don't want shared libraries, please do the following::
+
+    mkdir vendor
+    export GEM_HOME=vendor
+    bundle install
+
+
 .. note::
 
    Be advised that your local run can be successful and you can get a -1 from
    Jenkins, because you only run the tests for your Operating System Family.
+
+Tiny trick for RSpec
+--------------------
+
+You might find the time really long while running the tests. Part of the time is
+due to the collection of the required puppet modules for the tests. The cache
+directory is cleaned after each (successful) run, and if you're doing multiple changes
+with an RSpec run between each, you'd want to keep that cache. This can be done like
+that:
+
+.. code-block:: bash
+
+    bundle exec rake spec_prep # download all the dependencies
+    bundle exec rake spec_standalone # actually run the test and keep cached modules
+
+
+The modules are downloaded and cached in the *spec/fixtures/modules/* directory
 
 The best reference for getting started with rspec-puppet can be found here_.
 
