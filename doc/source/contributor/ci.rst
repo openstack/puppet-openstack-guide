@@ -66,10 +66,3 @@ OpenStack modules: The code that configures Jenkins jobs is hosted by
        packaging issues or mirrors downtime. Please report a bug for this so we
        can find workarounds. It can also be a problem in Tempest, a new test
        that is failing or a new parameter which is missing.
-   * - gate-tripleo-ci-centos-7-nonha-multinode-nv
-     - Deploy a `TripleO <http://docs.openstack.org/developer/tripleo-docs/>`__
-       overcloud by running Puppet OpenStack modules.
-     - Yes
-     - If it's not a TripleO CI downtime, you can dig into
-       logs/postci.txt.gz to see why catalog is failing (grep Error).
-       Also make sure to consult the `status of TripleO CI <http://tripleo.org/cistatus.html>`__.
