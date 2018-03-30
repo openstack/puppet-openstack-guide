@@ -19,24 +19,24 @@ OpenStack modules: The code that configures Jenkins jobs is hosted by
      - Description
      - Voting
      - What to do in case of failure
-   * - gate-puppet-puppet-lint
+   * - puppet-openstack-lint
      - It makes sure the code follows recommended `Puppet style guidelines
        <http://docs.puppetlabs.com/guides/style_guide.html>`__
      - Yes
      - Read the job logs to see where the code does not follow the Puppet lint
        style.
-   * - gate-puppet-puppet-syntax-4
+   * - puppet-openstack-syntax-4
      - Syntax checks for Puppet manifests, templates, and Hiera YAML. The jobs
        run on the latest Puppet 4.x release.
      - Yes
      - Read the job logs to see where the code does not follow the Puppet
        syntax style.
-   * - gate-puppet-puppet-unit-{4.8}
+   * - puppet-openstack-unit-{4.8}
      - RSpec tests for Puppet manifests.
      - Yes
      - Read the job logs to see where the tests are failing. `More
        documentation about RSpec <http://rspec-puppet.com/tutorial/>`__
-   * - gate-puppet-puppet-unit-latest
+   * - puppet-openstack-unit-latest
      - RSpec tests for Puppet manifests. The jobs run on the latest version
        of Puppet. It aims to be experimental to track any work to do in the
        module to be compatible with the latest release of Puppet.
@@ -45,7 +45,7 @@ OpenStack modules: The code that configures Jenkins jobs is hosted by
        job is non-voting, please raise a bug in Launchpad to make sure someone
        has a look and maybe update the module to work with latest version of
        Puppet.
-   * - gate-puppet-puppet-beaker-rspec-{centos7,xenial}
+   * - puppet-openstack-beaker-{centos7,xenial}
      - Beaker jobs to do functional testing. It will prepare the Puppet
        environment on 2 different systems (CentOS 7 and Ubuntu Trusty), run
        Puppet to configure the module resources and run some tests with
@@ -57,7 +57,7 @@ OpenStack modules: The code that configures Jenkins jobs is hosted by
        current tests or you'll have to adapt the tests to change the expected
        behavior. `More documentation about Beaker
        <https://github.com/puppetlabs/beaker/wiki>`__
-   * - gate-puppet-openstack-integration-4-scenarioX-tempest-{centos7,xenial}
+   * - puppet-openstack-integration-4-scenarioX-tempest-{centos7,xenial}
      - Functional testing jobs that will deploy OpenStack run tempest smoke to
        validate OpenStack is actually working when deploying with Puppet 3 and 4 versions.
        More details `here <https://github.com/openstack/puppet-openstack-integration#description>`__
