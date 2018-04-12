@@ -189,11 +189,11 @@ Puppetlabs releases
 How to release Puppet modules
 =============================
 
-- For all modules that need to be released, update metadata.json and reno configuration.
-  Example with https://review.openstack.org/#/c/371645
+- For all modules that need to be released, update metadata.json.
+  Example with https://review.openstack.org/#/c/545917
 
 - Submit a release request in openstack/releases project.
-  Example with https://review.openstack.org/#/c/371965
+  Example with https://review.openstack.org/#/c/546178/
 
 .. note:: puppet-ceph should be done separately because the branches track ceph
           releases and not openstack releases.
