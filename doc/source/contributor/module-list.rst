@@ -12,6 +12,7 @@ Puppet OpenStack Modules
 * `Key Manager <http://git.openstack.org/cgit/openstack/puppet-barbican/>`_ (*Barbican*)
 * `Telemetry <http://git.openstack.org/cgit/openstack/puppet-ceilometer/>`_ (*Ceilometer*)
 * `Block Storage <http://git.openstack.org/cgit/openstack/puppet-cinder/>`_ (*Cinder*)
+* `Rating service <http://git.openstack.org/cgit/openstack/puppet-cloudkitty/>`_ (*Cloudkitty*)
 * `Policy <http://git.openstack.org/cgit/openstack/puppet-congress/>`_ (*Congress*)
 * `DNS <http://git.openstack.org/cgit/openstack/puppet-designate/>`_ (*Designate*)
 * `EC2 API service <http://git.openstack.org/cgit/openstack/puppet-ec2api/>`_ (*EC2API*)
