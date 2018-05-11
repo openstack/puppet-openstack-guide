@@ -16,7 +16,7 @@ Puppet OpenStack Modules
 * `Policy <http://git.openstack.org/cgit/openstack/puppet-congress/>`_ (*Congress*)
 * `DNS <http://git.openstack.org/cgit/openstack/puppet-designate/>`_ (*Designate*)
 * `EC2 API service <http://git.openstack.org/cgit/openstack/puppet-ec2api/>`_ (*EC2API*)
-* `Backup, Restore, and Disaster Recovery service <http://git.openstack.org/cgit/openstack/puppet-frezer/>`_ (*Freezer*)
+* `Backup, Restore, and Disaster Recovery service <http://git.openstack.org/cgit/openstack/puppet-freezer/>`_ (*Freezer*)
 * `Image Service <http://git.openstack.org/cgit/openstack/puppet-glance/>`_ (*Glance*)
 * `Time Series Database <http://git.openstack.org/cgit/openstack/puppet-gnocchi/>`_ (*Gnocchi*)
 * `Orchestration <http://git.openstack.org/cgit/openstack/puppet-heat/>`_ (*Heat*)
