@@ -53,11 +53,11 @@ Most Recent Modules releases
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-ceilometer_              | `13.3.0 <http://docs.openstack.org/releasenotes/puppet-ceilometer/>`__           |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-ceph_                    | `13.3.0 <http://docs.openstack.org/releasenotes/puppet-ceph/>`__                 |
+| puppet-ceph_                    | `2.5.1 <http://docs.openstack.org/releasenotes/puppet-ceph/>`__                  |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-cinder_                  | `13.3.0 <http://docs.openstack.org/releasenotes/puppet-cinder/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-cloudkitty_              | `13.3.0 <http://docs.openstack.org/releasenotes/puppet-cloudkitty/>`__           |
+| puppet-cloudkitty_              | `2.3.0 <http://docs.openstack.org/releasenotes/puppet-cloudkitty/>`__            |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-congress_                | `13.3.0 <http://docs.openstack.org/releasenotes/puppet-congress/>`__             |
 +---------------------------------+----------------------------------------------------------------------------------+
@@ -65,7 +65,7 @@ Most Recent Modules releases
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-ec2api_                  | `13.3.0 <http://docs.openstack.org/releasenotes/puppet-ec2api/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-freezer_                 | `13.3.0 <http://docs.openstack.org/releasenotes/puppet-freezer/>`__              |
+| puppet-freezer_                 | `2.3.0 <http://docs.openstack.org/releasenotes/puppet-freezer/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-glance_                  | `13.3.0 <http://docs.openstack.org/releasenotes/puppet-glance/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
@@ -87,7 +87,7 @@ Most Recent Modules releases
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-mistral_                 | `13.3.0 <http://docs.openstack.org/releasenotes/puppet-mistral/>`__              |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-monasca_                 | `13.3.0 <http://docs.openstack.org/releasenotes/puppet-monasca/>`__              |
+| puppet-monasca_                 | `2.3.0 <http://docs.openstack.org/releasenotes/puppet-monasca/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-murano_                  | `13.3.0 <http://docs.openstack.org/releasenotes/puppet-murano/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
@@ -113,9 +113,9 @@ Most Recent Modules releases
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-panko_                   | `13.3.0 <http://docs.openstack.org/releasenotes/puppet-panko/>`__                |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-qdr_                     | `13.3.0 <http://docs.openstack.org/releasenotes/puppet-qdr/>`__                  |
+| puppet-qdr_                     | `2.3.0 <http://docs.openstack.org/releasenotes/puppet-qdr/>`__                   |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-rally_                   | `13.3.0 <http://docs.openstack.org/releasenotes/puppet-rally/>`__                |
+| puppet-rally_                   | `1.3.0 <http://docs.openstack.org/releasenotes/puppet-rally/>`__                 |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-sahara_                  | `13.3.0 <http://docs.openstack.org/releasenotes/puppet-sahara/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
@@ -127,9 +127,9 @@ Most Recent Modules releases
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-trove_                   | `13.3.0 <http://docs.openstack.org/releasenotes/puppet-trove/>`__                |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-vitrage_                 | `13.3.0 <http://docs.openstack.org/releasenotes/puppet-vitrage/>`__              |
+| puppet-vitrage_                 | `3.3.0 <http://docs.openstack.org/releasenotes/puppet-vitrage/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-vswitch_                 | `13.3.0 <http://docs.openstack.org/releasenotes/puppet-vswitch/>`__              |
+| puppet-vswitch_                 | `9.3.0 <http://docs.openstack.org/releasenotes/puppet-vswitch/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-watcher_                 | `13.3.0 <http://docs.openstack.org/releasnotes/puppet-watcher/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
