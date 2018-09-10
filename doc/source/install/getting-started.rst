@@ -8,7 +8,7 @@ Learning about
 
 * To learn about the Puppet configuration management system,
   consult their `online documentation <http://docs.puppetlabs.com/>`__ .
-* Learn about what are our `Supported Platforms <http://docs.openstack.org/developer/puppet-openstack-guide/supported-platforms.html>`_.
+* Learn about what are our `Supported Platforms <supported-platforms.html>`_.
 * Deploy_ your own OpenStack Cloud with Puppet All-In-One.
 * All Puppet OpenStack releases_ and release notes.
 
