@@ -13,4 +13,4 @@ The following OS/version are supported by the Puppet modules:
 The modules are tested on Puppet 3.6, 3.7, 3.8, 4.0, and 4.x (latest) with
 Ruby 2.0. Puppet 2.X is NOT supported.
 
-See `Puppet CI <http://docs.openstack.org/developer/puppet-openstack-guide/ci.html>`_ to see what is currently tested.
+See `Continuous Integration <https://docs.openstack.org/puppet-openstack-guide/latest/contributor/ci.html>`_ to see what is currently tested.
