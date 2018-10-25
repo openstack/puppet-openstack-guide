@@ -37,8 +37,9 @@ OpenStack modules: The code that configures Jenkins jobs is hosted by
      - Yes
      - Read the job logs to see where the code does not follow the Puppet
        syntax style.
-   * - puppet-openstack-unit-{4.8}
-     - RSpec tests for Puppet manifests.
+   * - puppet-openstack-unit-{4.10,5.5}
+     - RSpec tests for Puppet manifests on Puppet 4 (for Queens and earlier) and
+       Puppet 5 (for Rocky and beyond).
      - Yes
      - Read the job logs to see where the tests are failing. `More
        documentation about RSpec <http://rspec-puppet.com/tutorial/>`__
@@ -65,7 +66,16 @@ OpenStack modules: The code that configures Jenkins jobs is hosted by
        <https://github.com/puppetlabs/beaker/wiki>`__
    * - puppet-openstack-integration-4-scenarioX-tempest-{centos7,xenial}
      - Functional testing jobs that will deploy OpenStack run tempest smoke to
-       validate OpenStack is actually working when deploying with Puppet 3 and 4 versions.
+       validate OpenStack is actually working when deploying with Puppet 4 on Queens or earlier.
+       More details `here <https://github.com/openstack/puppet-openstack-integration#description>`__
+     - Yes
+     - Read the job logs. Sometimes, the job fails because of
+       packaging issues or mirrors downtime. Please report a bug for this so we
+       can find workarounds. It can also be a problem in Tempest, a new test
+       that is failing or a new parameter which is missing.
+   * - puppet-openstack-integration-5-scenarioX-tempest-{centos7,bionic}
+     - Functional testing jobs that will deploy OpenStack run tempest smoke to
+       validate OpenStack is actually working when deploying with Puppet 5 on Rocky and beyond.
        More details `here <https://github.com/openstack/puppet-openstack-integration#description>`__
      - Yes
      - Read the job logs. Sometimes, the job fails because of
