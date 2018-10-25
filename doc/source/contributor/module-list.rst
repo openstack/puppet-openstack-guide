@@ -35,6 +35,7 @@ Puppet OpenStack Modules
 * `Oslo Libraries <http://git.openstack.org/cgit/openstack/puppet-oslo/>`_ (*Oslo*)
 * `Benchmarking <http://git.openstack.org/cgit/openstack/puppet-rally/>`_ (*Rally*)
 * `Data Processing <http://git.openstack.org/cgit/openstack/puppet-sahara/>`_ (*Sahara*)
+* `Clustering <http://git.openstack.org/cgit/openstack/puppet-senlin/>`_ (*Senlin*)
 * `Object Storage <http://git.openstack.org/cgit/openstack/puppet-swift/>`_ (*Swift*)
 * `Testing <http://git.openstack.org/cgit/openstack/puppet-tempest/>`_ (*Tempest*)
 * `Deployment <http://git.openstack.org/cgit/openstack/puppet-tripleo/>`_ (*TripleO*)
