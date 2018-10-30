@@ -14,4 +14,4 @@ keeping unit testing for Puppet 4.
 
 Puppet 3 or earlier is NOT supported.
 
-See `Puppet CI <http://docs.openstack.org/developer/puppet-openstack-guide/ci.html>`_ to see what is currently tested.
+See `Continuous Integration <https://docs.openstack.org/puppet-openstack-guide/latest/contributor/ci.html>`_ to see what is currently tested.
