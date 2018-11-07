@@ -37,7 +37,7 @@ OpenStack modules: The code that configures Jenkins jobs is hosted by
      - Yes
      - Read the job logs to see where the code does not follow the Puppet
        syntax style.
-   * - puppet-openstack-unit-{4.10,5.5}
+   * - puppet-openstack-unit-{4.8,5.5}
      - RSpec tests for Puppet manifests on Puppet 4 (for Queens and earlier) and
        Puppet 5 (for Rocky and beyond).
      - Yes
