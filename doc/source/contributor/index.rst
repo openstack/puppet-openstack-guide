@@ -1,5 +1,5 @@
- Puppet Openstack Contributor Guide
-====================================
+Puppet Openstack Contributor Guide
+==================================
 
 .. toctree::
    :maxdepth: 2
