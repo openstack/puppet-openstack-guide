@@ -12,8 +12,8 @@ Learning about
 * Deploy_ your own OpenStack Cloud with Puppet All-In-One.
 * All Puppet OpenStack releases_ and release notes.
 
-.. _Deploy: http://docs.openstack.org/developer/puppet-openstack-guide/deploy.html
-.. _releases: http://docs.openstack.org/developer/puppet-openstack-guide/releases.html
+.. _Deploy: https://docs.openstack.org/puppet-openstack-guide/latest/install/deploy.html
+.. _releases: https://docs.openstack.org/puppet-openstack-guide/latest/install/releases.html
 
 .. toctree::
    :maxdepth: 1
