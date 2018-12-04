@@ -9,7 +9,7 @@ information more readily available so that others who have the same
 question can search for and find those answers.
 
 -  Dev discussions:
-   `openstack-dev@lists.openstack.org <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-dev>`__
+   `openstack-discuss@lists.openstack.org <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss>`__
    with ``[puppet]`` tag.
 -  Usage discussions:
    `openstack-operators@lists.openstack.org <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-operators>`__
