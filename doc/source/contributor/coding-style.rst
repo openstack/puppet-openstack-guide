@@ -47,6 +47,32 @@ Before adding new parameters or new classes, see if other modules
 already implement them and keep consistent. See also our common libraries
 `OpenStackLib <http://git.openstack.org/cgit/openstack/puppet-openstacklib/>`__
 
+Class structure and dependencies
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The structure of classes should be consistent between modules for common resources.
+There should be as few include or require statements as possible unless absolutely
+neccesary, such as in the case when backward compatibility is required.
+
+This helps to prevent redeclaration problems and issues where consumers of the modules
+are forced to place resources in the proper order in their manifests to not cause those
+issues. We should strive towards not enforcing ordering of resources in code, if we have
+to do that we should inform our users properly and fail early unless the condition is met.
+
+Note that this is not about the runtime dependency chain of resources but about placement
+of code that can cause redeclaration issues because we include a class in another and the
+consumer specifying that class at the same time.
+
+Classes should be used to logically split up the functionality of modules to not
+place everything in the same place. For example in the ``puppet-cinder`` instead
+of having ``cinder::nova_username`` which configures ``[nova]/username`` you should
+instead supply the ``cinder::nova`` class that takes care of the whole ``nova`` config
+section.
+
+Same structure should be used for database, logging etc to not group up all the
+configuration options in the init class of the modules. Examples of this is the
+``<modules>::db```and ``<module>::logging`` classes we have today.
+
 Config file defaults and parameters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
