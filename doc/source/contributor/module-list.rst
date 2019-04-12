@@ -33,6 +33,7 @@ Puppet OpenStack Modules
 * `Compute <http://git.openstack.org/cgit/openstack/puppet-nova/>`_ (*Nova*)
 * `Load Balancer <http://git.openstack.org/cgit/openstack/puppet-octavia/>`_ (*Octavia*)
 * `Oslo Libraries <http://git.openstack.org/cgit/openstack/puppet-oslo/>`_ (*Oslo*)
+* `Telemetry Event service <http://git.openstack.org/cgit/openstack/puppet-panko/>`_ (*Panko*)
 * `Benchmarking <http://git.openstack.org/cgit/openstack/puppet-rally/>`_ (*Rally*)
 * `Data Processing <http://git.openstack.org/cgit/openstack/puppet-sahara/>`_ (*Sahara*)
 * `Clustering <http://git.openstack.org/cgit/openstack/puppet-senlin/>`_ (*Senlin*)
