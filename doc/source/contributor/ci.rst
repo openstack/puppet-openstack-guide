@@ -8,8 +8,7 @@ Continuous Integration
 This is a list of the CI jobs that are running against most of the Puppet
 OpenStack modules: The code that configures Jenkins jobs is hosted by
 `project-config
-<http://git.openstack.org/cgit/openstack-infra/project-config/tree/jenkins
-/jobs/puppet-module-jobs.yaml>`__.
+<http://opendev.org/openstack/project-config/tree/jenkins/jobs/puppet-module-jobs.yaml>`__.
 
 .. list-table:: **CI Jobs in puppet-openstack**
    :widths: 12 25 8 55

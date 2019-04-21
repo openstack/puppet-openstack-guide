@@ -49,7 +49,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'Puppet OpenStack Guide'
 copyright = Markup(u'%s, OpenStack Contributors '
-                   u'- use the <a href="https://git.openstack.org/cgit/'
+                   u'- use the <a href="https://opendev.org/'
                    u'openstack/puppet-openstack-guide">puppet-openstack-guide git repo</a> '
                    u'to propose changes' % datetime.date.today().year)
 

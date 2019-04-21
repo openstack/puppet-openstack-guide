@@ -45,7 +45,7 @@ Consistency
 We have a lot of modules to maintain, please keep our code consistent.
 Before adding new parameters or new classes, see if other modules
 already implement them and keep consistent. See also our common libraries
-`OpenStackLib <http://git.openstack.org/cgit/openstack/puppet-openstacklib/>`__
+`OpenStackLib <http://opendev.org/openstack/puppet-openstacklib/>`__
 
 Class structure and dependencies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
