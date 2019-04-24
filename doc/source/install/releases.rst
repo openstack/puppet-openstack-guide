@@ -199,10 +199,10 @@ How to release Puppet modules
 =============================
 
 - For all modules that need to be released, update metadata.json.
-  Example with https://review.openstack.org/#/c/545917
+  Example with https://review.opendev.org/#/c/545917
 
 - Submit a release request in openstack/releases project.
-  Example with https://review.openstack.org/#/c/546178/
+  Example with https://review.opendev.org/#/c/546178/
 
 .. note:: puppet-ceph should be done separately because the branches track ceph
           releases and not openstack releases.
@@ -215,7 +215,7 @@ https://tarballs.openstack.org
 If a new branch has been created, some tasks need to be done:
 
 - Update the gerrit bot to pick up changes for the new stable branch.
-  Example: https://review.openstack.org/#/c/497411/
+  Example: https://review.opendev.org/#/c/497411/
 
 - Branch openstack/puppet-openstack-integration and openstack/puppet-openstack_spec_helper
   http://docs.openstack.org/infra/manual/drivers.html#create-stable-branch
@@ -224,10 +224,10 @@ If a new branch has been created, some tasks need to be done:
   also rake_tasks.rb and beaker_spec_helper.rb to checkout the new branch, .gitreview file
   and release notes to have a page for the stable release, looking for notes in the stable
   branch. Note: the patch has to be done in stable/pike.
-  Example: https://review.openstack.org/#/c/497403/
+  Example: https://review.opendev.org/#/c/497403/
 
 - For all modules and openstack/puppet-openstack-integration, Puppetfile + Gemfile to use the
   new branch, also update .gitreview. Note: example patches patch has to be done in stable/pike.
-  Example: https://review.openstack.org/#/q/topic:switch-to-pike
+  Example: https://review.opendev.org/#/q/topic:switch-to-pike
 
 - Update this documentation

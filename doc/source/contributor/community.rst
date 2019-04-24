@@ -46,6 +46,6 @@ are now managed by a release `subteam`_.
 
 
 .. _documented: http://governance.openstack.org/reference/projects/puppet-openstack.html
-.. _core-reviewers: https://review.openstack.org/#/admin/groups/134,members
-.. _subteam: https://review.openstack.org/#/admin/groups/1022,members
+.. _core-reviewers: https://review.opendev.org/#/admin/groups/134,members
+.. _subteam: https://review.opendev.org/#/admin/groups/1022,members
 .. _guide: https://wiki.openstack.org/wiki/PTL_Guide
