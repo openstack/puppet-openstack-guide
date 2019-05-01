@@ -50,8 +50,6 @@ Other Modules
 * `Storage <http://opendev.org/openstack/puppet-ceph/>`_ (*Ceph*)
 * `Virtual Bridging <http://opendev.org/openstack/puppet-vswitch>`_ (*OpenvSwitch*)
 * `Virtual Networking <http://opendev.org/openstack/puppet-ovn>`_ (*OVN*)
-* `TripleO UI <http://opendev.org/openstack/puppet-tuskar/>`_ (*TripleO UI*) (**Deprecated**)
-* `Composition Layer <http://opendev.org/stackforge/puppet-openstack/>`_ (*OpenStack*) (**Deprecated in Juno**)
 
 
 Supporting Puppet Modules
