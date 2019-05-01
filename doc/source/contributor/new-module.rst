@@ -13,7 +13,7 @@ module:
 -  Once a consensus is reached on the mailing list, the user can
    proceed further by doing two actions:
 
-    #. Submit a review to openstack-infra/project-config to create the
+    #. Submit a review to openstack/project-config to create the
        project (Add PTL and some core as reviewers)
     #. Submit a review to openstack/governance to state that the project is
        part of PuppetOpenstack (Add PTL and some core as reviewers)
