@@ -41,11 +41,9 @@ the Puppet module, to become core, and improve our review quality.
 Release team
 ============
 
-Until Puppet OpenStack releases will be managed by OpenStack Release Team, releases
-are now managed by a release `subteam`_.
+Puppet OpenStack releases are done with the help of the OpenStack Release Team.
 
 
 .. _documented: http://governance.openstack.org/reference/projects/puppet-openstack.html
 .. _core-reviewers: https://review.opendev.org/#/admin/groups/134,members
-.. _subteam: https://review.opendev.org/#/admin/groups/1022,members
 .. _guide: https://wiki.openstack.org/wiki/PTL_Guide
