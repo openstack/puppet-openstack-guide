@@ -188,6 +188,8 @@ Most Recent Modules releases
 Puppetlabs releases
 ===================
 
+-  From Stein, all new releases are automatically uploaded on
+   https://forge.puppetlabs.com/openstack
 -  From Kilo, some modules are released and approved_ on
    https://forge.puppetlabs.com/openstack
 -  For Juno and before, some modules were released on
