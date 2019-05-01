@@ -9,7 +9,7 @@ setup with Tempest.
 
 * Software requirements:
 
-  * Ubuntu 16.04 LTS or CentOS7 fresh install
+  * Ubuntu 18.04 LTS or CentOS 7 fresh install
   * 'git' installed
 
 * Hardware requirements:

@@ -9,9 +9,8 @@ The following OS/version are supported by the Puppet modules:
 - Ubuntu 18.04 (Bionic) with Rocky and beyond
 - Debian 9.0 (Stretch) with Rocky and beyond
 
-The modules are tested on Puppet 4 up to Queens and then Puppet 5 from there but
-keeping unit testing for Puppet 4.
+The modules are tested on Puppet 4 up to Queens and then Puppet 5 and 6 from there.
 
-Puppet 3 or earlier is NOT supported.
+Puppet 3 or earlier is NOT supported. Puppet 4 is NOT supported as of the Train release.
 
 See `Continuous Integration <https://docs.openstack.org/puppet-openstack-guide/latest/contributor/ci.html>`_ to see what is currently tested.
