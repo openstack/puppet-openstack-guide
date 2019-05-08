@@ -38,6 +38,7 @@ Puppet OpenStack Modules
 * `Data Processing <http://opendev.org/openstack/puppet-sahara/>`_ (*Sahara*)
 * `Clustering <http://opendev.org/openstack/puppet-senlin/>`_ (*Senlin*)
 * `Object Storage <http://opendev.org/openstack/puppet-swift/>`_ (*Swift*)
+* `NFV Orchestration service <http://opendev.org/openstack/puppet-tacker/>`_ (*Tacker*)
 * `Testing <http://opendev.org/openstack/puppet-tempest/>`_ (*Tempest*)
 * `Deployment <http://opendev.org/openstack/puppet-tripleo/>`_ (*TripleO*)
 * `Database Service <http://opendev.org/openstack/puppet-trove/>`_ (*Trove*)
