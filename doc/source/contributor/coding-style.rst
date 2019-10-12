@@ -97,7 +97,7 @@ Testing
 
 Everything about testing you can find here_.
 
-.. _here: http://docs.openstack.org/developer/puppet-openstack-guide/testing.html
+.. _here: https://docs.openstack.org/puppet-openstack-guide/latest/contributor/testing.html
 
 Documentation
 =============
