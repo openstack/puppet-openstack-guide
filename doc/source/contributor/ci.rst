@@ -18,7 +18,7 @@ OpenStack modules: The code that configures Jenkins jobs is hosted by
      - Description
      - Voting
      - What to do in case of failure
-   * - puppet-openstack-lint
+   * - puppet-openstack-lint-ubuntu-bionic
      - It makes sure the code follows recommended `Puppet style guidelines
        <http://docs.puppetlabs.com/guides/style_guide.html>`__
      - Yes
