@@ -51,9 +51,9 @@ OpenStack modules: The code that configures Jenkins jobs is hosted by
        job is non-voting, please raise a bug in Launchpad to make sure someone
        has a look and maybe update the module to work with latest version of
        Puppet.
-   * - puppet-openstack-beaker-{centos7,xenial}
+   * - puppet-openstack-beaker-{centos-7,ubuntu-bionic}
      - Beaker jobs to do functional testing. It will prepare the Puppet
-       environment on 2 different systems (CentOS 7 and Ubuntu Trusty), run
+       environment on 2 different systems (CentOS 7 and Ubuntu bionic), run
        Puppet to configure the module resources and run some tests with
        serverspec.
      - Yes
