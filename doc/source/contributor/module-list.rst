@@ -51,6 +51,7 @@ Other Modules
 * `Storage <http://opendev.org/openstack/puppet-ceph/>`_ (*Ceph*)
 * `Virtual Bridging <http://opendev.org/openstack/puppet-vswitch>`_ (*OpenvSwitch*)
 * `Virtual Networking <http://opendev.org/openstack/puppet-ovn>`_ (*OVN*)
+* `QPID Dispatch Router <http://opendev.org/openstack/puppet-qdr>`_ (*QDR*)
 
 
 Supporting Puppet Modules
