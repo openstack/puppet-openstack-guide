@@ -10,4 +10,4 @@ Puppet Openstack Contributor Guide
    community
    talk-to-us
    ci
-   releases
+

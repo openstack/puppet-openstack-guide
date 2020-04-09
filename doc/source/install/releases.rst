@@ -164,6 +164,7 @@ Most Recent Modules releases
 .. _puppet-magnum: https://opendev.org/openstack/puppet-magnum
 .. _puppet-manila: https://opendev.org/openstack/puppet-manila
 .. _puppet-mistral: https://opendev.org/openstack/puppet-mistral
+.. _puppet-monasca: https://opendev.org/openstack/puppet-monasca
 .. _puppet-murano: https://opendev.org/openstack/puppet-murano
 .. _puppet-neutron: https://opendev.org/openstack/puppet-neutron
 .. _puppet-nova: https://opendev.org/openstack/puppet-nova
