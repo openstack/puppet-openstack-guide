@@ -222,9 +222,6 @@ https://tarballs.openstack.org
 
 If a new branch has been created, some tasks need to be done:
 
-- Update the gerrit bot to pick up changes for the new stable branch.
-  Example: https://review.opendev.org/#/c/497411/
-
 - Branch openstack/puppet-openstack-integration and openstack/puppet-openstack_spec_helper
   http://docs.openstack.org/infra/manual/drivers.html#create-stable-branch
 
