@@ -1,0 +1,1 @@
+redirectmatch 301 ^/puppet-openstack-guide/([^/]+)/contributor/how-to-contribute.html$ /puppet-openstack-guide/$1/contributor/contributing.html

@@ -6,7 +6,7 @@ Puppet Openstack Contributor Guide
    :includehidden:
 
    module-list
-   how-to-contribute
+   contributing
    community
    talk-to-us
    ci
