@@ -65,8 +65,6 @@ Most Recent Modules releases
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-cloudkitty_              | `5.3.0 <http://docs.openstack.org/releasenotes/puppet-cloudkitty/>`__            |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-congress_                | `16.3.0 <http://docs.openstack.org/releasenotes/puppet-congress/>`__             |
-+---------------------------------+----------------------------------------------------------------------------------+
 | puppet-designate_               | `16.3.0 <http://docs.openstack.org/releasenotes/puppet-designate/>`__            |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-ec2api_                  | `16.3.0 <http://docs.openstack.org/releasenotes/puppet-ec2api/>`__               |
@@ -152,7 +150,6 @@ Most Recent Modules releases
 .. _puppet-ceph: https://opendev.org/openstack/puppet-ceph
 .. _puppet-cinder: https://opendev.org/openstack/puppet-cinder
 .. _puppet-cloudkitty: https://opendev.org/openstack/puppet-cloudkitty
-.. _puppet-congress: https://opendev.org/openstack/puppet-congress
 .. _puppet-designate: https://opendev.org/openstack/puppet-designate
 .. _puppet-ec2api: https://opendev.org/openstack/puppet-ec2api
 .. _puppet-freezer: https://opendev.org/openstack/puppet-freezer

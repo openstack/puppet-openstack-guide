@@ -13,7 +13,6 @@ Puppet OpenStack Modules
 * `Telemetry <http://opendev.org/openstack/puppet-ceilometer/>`_ (*Ceilometer*)
 * `Block Storage <http://opendev.org/openstack/puppet-cinder/>`_ (*Cinder*)
 * `Rating service <http://opendev.org/openstack/puppet-cloudkitty/>`_ (*Cloudkitty*)
-* `Policy <http://opendev.org/openstack/puppet-congress/>`_ (*Congress*)
 * `DNS <http://opendev.org/openstack/puppet-designate/>`_ (*Designate*)
 * `EC2 API service <http://opendev.org/openstack/puppet-ec2api/>`_ (*EC2API*)
 * `Backup, Restore, and Disaster Recovery service <http://opendev.org/openstack/puppet-freezer/>`_ (*Freezer*)
