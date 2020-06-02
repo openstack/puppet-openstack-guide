@@ -80,7 +80,7 @@ add_module_names = False
 show_authors = False
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'native'
 
 # A list of ignored prefixes for module index sorting.
 modindex_common_prefix = ['puppet-openstack-guide.']
@@ -254,3 +254,7 @@ epub_copyright = u'%s, OpenStack Contributors' % datetime.date.today().year
 
 # Allow duplicate toc entries.
 #epub_tocdup = True
+
+
+# openstackdocstheme options
+openstackdocs_repo_name = 'openstack/puppet-openstack-guide'
