@@ -230,8 +230,6 @@ If a new branch has been created, some tasks need to be done:
   branch. Note: the patch has to be done in stable/pike.
   Example: https://review.opendev.org/#/c/497403/
 
-- For all modules and openstack/puppet-openstack-integration, Puppetfile + Gemfile to use the
-  new branch, also update .gitreview. Note: example patches patch has to be done in stable/pike.
-  Example: https://review.opendev.org/#/q/topic:switch-to-pike
+- Update Puppetfile in openstack/puppet-openstack-integration
 
 - Update this documentation
