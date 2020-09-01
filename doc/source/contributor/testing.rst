@@ -127,7 +127,7 @@ Running beaker
    elif [ -f /usr/bin/apt-get ]; then
        sudo service ssh restart
    fi
-   sudo gem install bundler --no-rdoc --no-ri --verbose
+   sudo gem install bundler --no-document --verbose
    mkdir .bundled_gems
    export GEM_HOME=`pwd`/.bundled_gems
    bundle install
