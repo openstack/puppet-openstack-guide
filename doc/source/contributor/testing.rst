@@ -105,17 +105,17 @@ Running beaker
        OS_TYPE='centos7'
    elif [ -f /usr/bin/apt-get ]; then
        sudo apt-get update
-       sudo apt-get install -y libxml2-dev libxslt-dev zlib1g-dev git ruby
+       sudo apt-get install -y libxml2-dev libxslt-dev zlib1g-dev git ruby \
        ruby-dev build-essential
        OS_TYPE='trusty'
    fi
    echo "" | sudo tee -a /etc/ssh/sshd_config
    echo "Match address 127.0.0.1" | sudo tee -a /etc/ssh/sshd_config
-   echo "    PermitRootLogin without-password" | sudo tee -a
+   echo "    PermitRootLogin without-password" | sudo tee -a \
    /etc/ssh/sshd_config
    echo "" | sudo tee -a /etc/ssh/sshd_config
    echo "Match address ::1" | sudo tee -a /etc/ssh/sshd_config
-   echo "    PermitRootLogin without-password" | sudo tee -a
+   echo "    PermitRootLogin without-password" | sudo tee -a \
    /etc/ssh/sshd_config
    mkdir -p .ssh
    ssh-keygen -f ~/.ssh/id_rsa -b 2048 -C "beaker key" -P ""
