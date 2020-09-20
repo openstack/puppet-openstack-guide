@@ -225,9 +225,9 @@ If a new branch has been created, some tasks need to be done:
   http://docs.openstack.org/infra/manual/drivers.html#create-stable-branch
 
 - Update openstack/puppet-openstack_spec_helper and update CI scripts to checkout stable,
-  also rake_tasks.rb and beaker_spec_helper.rb to checkout the new branch, .gitreview file
-  and release notes to have a page for the stable release, looking for notes in the stable
-  branch. Note: the patch has to be done in stable/pike.
+  also rake_tasks.rb to checkout the new branch, .gitreview file and release notes to
+  have a page for the stable release, looking for notes in the stable branch.
+  Note: the patch has to be done in stable/pike.
   Example: https://review.opendev.org/#/c/497403/
 
 - Update Puppetfile in openstack/puppet-openstack-integration
