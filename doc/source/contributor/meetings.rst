@@ -12,7 +12,7 @@ IRC meetings
 ============
 
 If you're interested in Puppet OpenStack, we hold public meetings as needed on
-``#puppet-openstack`` on freenode.  If a meeting is going to be held, it will
+``#puppet-openstack`` on OFTC.  If a meeting is going to be held, it will
 be announced on the OpenStack-dev mailing list.
 
 .. list-table::

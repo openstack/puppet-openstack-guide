@@ -113,7 +113,7 @@ Asking for review
 
 Different ways to get reviewsː
 
--  Go on IRC ``#puppet-openstack`` (freenode) and gently ask for
+-  Go on IRC ``#puppet-openstack`` (OFTC) and gently ask for
    reviews. If you need to discuss about already reviewed code, you can
    ping the reviewers.
 -  Add your patch on the Puppet OpenStack `meeting <http://docs.openstack.org/developer/puppet-openstack-guide/meetings.html>`_ Agenda (in Open Discussion section).

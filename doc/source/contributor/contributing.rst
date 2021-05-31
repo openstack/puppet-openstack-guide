@@ -28,7 +28,7 @@ Communication
   `OpenStack discuss mail-list <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss>`_.
   Prefix the mail subject with ``[puppet]``
 
-* Join ``#puppet-openstack`` IRC channel on `freenode <http://freenode.net/>`_
+* Join ``#puppet-openstack`` IRC channel on `OFTC <https://www.oftc.net>`_
 
 Contacting the Core Team
 ~~~~~~~~~~~~~~~~~~~~~~~~
