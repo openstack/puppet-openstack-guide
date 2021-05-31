@@ -4,7 +4,8 @@ Supported Platforms
 
 The following OS/version are supported by the Puppet modules:
 
-- RHEL / CentOS 7
+- RHEL / CentOS 7 with Queens up to Train
+- RHEL / CentOS 8 with Train and beyond
 - Ubuntu 16.04 (Xenial) with Ocata up to Queens
 - Ubuntu 18.04 (Bionic) with Rocky and beyond
 - Debian 9.0 (Stretch) with Rocky and beyond
