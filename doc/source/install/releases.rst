@@ -75,8 +75,6 @@ Most Recent Modules releases
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-glance_                  | `17.5.0 <http://docs.openstack.org/releasenotes/puppet-glance/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-glare_                   | `6.4.0 <http://docs.openstack.org/releasenotes/puppet-glare/>`__                 |
-+---------------------------------+----------------------------------------------------------------------------------+
 | puppet-gnocchi_                 | `17.4.0 <http://docs.openstack.org/releasenotes/puppet-gnocchi/>`__              |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-heat_                    | `17.4.0 <http://docs.openstack.org/releasenotes/puppet-heat/>`__                 |
@@ -156,7 +154,6 @@ Most Recent Modules releases
 .. _puppet-ec2api: https://opendev.org/openstack/puppet-ec2api
 .. _puppet-freezer: https://opendev.org/openstack/puppet-freezer
 .. _puppet-glance: https://opendev.org/openstack/puppet-glance
-.. _puppet-glare: https://opendev.org/openstack/puppet-glare
 .. _puppet-gnocchi: https://opendev.org/openstack/puppet-gnocchi
 .. _puppet-heat: https://opendev.org/openstack/puppet-heat
 .. _puppet-horizon: https://opendev.org/openstack/puppet-horizon
