@@ -92,6 +92,17 @@ When you need to specify an empty (nil) parameter, using
 is the best choice. Do not useː " (not Puppetish) or false (undef is
 false if tested as a boolean).
 
+Adding new depdnency
+~~~~~~~~~~~~~~~~~~~~
+
+When you add a new dependency, update ``metadata.json`` in that repository.
+If the new dependency is not yet used by the other modules, then that should be added to
+`Puppetfile <https://opendev.org/openstack/puppet-openstack-integration/src/branch/master/Puppetfile>`__
+so that the new dependency is installed during tests.
+If the new depdnency is already used in the other modules, then set the consistent
+version constraints unless you have a specific requirement,
+
+
 Testing
 =======
 
