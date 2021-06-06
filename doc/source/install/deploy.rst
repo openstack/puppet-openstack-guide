@@ -26,4 +26,4 @@ setup with Tempest.
 
 More information you can find here_.
 
-.. _here: https://github.com/openstack/puppet-openstack-integration#all-in-one
+.. _here: https://opendev.org/openstack/puppet-openstack-integration#all-in-one

@@ -62,4 +62,4 @@ Supporting Puppet Modules
 * `Integration CI Tools <http://opendev.org/openstack/puppet-openstack-integration>`_ (*Puppet OpenStack Integration*)
 * `Blueprints <http://opendev.org/openstack/puppet-openstack-specs>`_ (*Puppet OpenStack Specs*) (hosted `here <http://specs.openstack.org/openstack/puppet-openstack-specs/>`_)
 * `New Module Cookiecutter Template <http://opendev.org/openstack/puppet-openstack-cookiecutter>`_ (*Cookiecutter*)
-* `Sync Tool <http://opendev.org/openstack/puppet-modulesync-configs>`_ (*Modulesync*)
+* `Sync Tool <http://opendev.org/x/puppet-modulesync-configs>`_ (*Modulesync*)

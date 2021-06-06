@@ -73,7 +73,7 @@ OpenStack modules: The code that configures Jenkins jobs is hosted by
      - Functional testing jobs that will deploy OpenStack run tempest smoke to
        validate OpenStack is actually working. *N* represents the Puppet version
        used in the test.
-       More details `here <https://github.com/openstack/puppet-openstack-integration#description>`__
+       More details `here <https://opendev.org/openstack/puppet-openstack-integration#description>`__
      - Yes
      - Read the job logs. Sometimes, the job fails because of
        packaging issues or mirrors downtime. Please report a bug for this so we
