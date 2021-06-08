@@ -107,6 +107,10 @@ Documentation
 -  If possible, keep examples/\*.pp updated, they are very useful for
    our users.
 -  Comment your code when needed (temporary workarounds, TODO, etc).
+-  Any change in interface (like new parameters, deprecations, and etc) or
+   fundamental behavior should be documented in a release note. In Puppet OpenStack,
+   we use `reno <https://docs.openstack.org/reno/latest/>`__ to maintain release notes.
+
 
 Asking for review
 =================
