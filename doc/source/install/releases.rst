@@ -115,8 +115,6 @@ Most Recent Modules releases
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-ovn_                     | `17.4.0 <http://docs.openstack.org/releasenotes/puppet-ova/>`__                  |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-panko_                   | `17.5.0 <http://docs.openstack.org/releasenotes/puppet-panko/>`__                |
-+---------------------------------+----------------------------------------------------------------------------------+
 | puppet-placement_               | `4.4.0 <http://docs.openstack.org/releasenotes/puppet-placement/>`__             |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-qdr_                     | `6.4.0 <http://docs.openstack.org/releasenotes/puppet-qdr/>`__                   |
@@ -174,7 +172,6 @@ Most Recent Modules releases
 .. _puppet-openstacklib: https://opendev.org/openstack/puppet-openstacklib
 .. _puppet-oslo: https://opendev.org/openstack/puppet-oslo
 .. _puppet-ovn: https://opendev.org/openstack/puppet-ovn
-.. _puppet-panko: https://opendev.org/openstack/puppet-panko
 .. _puppet-placement: https://opendev.org/openstack/puppet-placement
 .. _puppet-qdr: https://opendev.org/openstack/puppet-qdr
 .. _puppet-rally: https://opendev.org/openstack/puppet-rally
