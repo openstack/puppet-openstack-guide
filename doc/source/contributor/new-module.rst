@@ -28,13 +28,13 @@ The community has developed two projects related to modules file
 management:
 
 -  puppet-openstack-cookiecutter
-   (https://github.com/openstack/puppet-openstack-cookiecutter) : This
+   (https://opendev.org/openstack/puppet-openstack-cookiecutter) : This
    project aims to help bootstrap a new puppet module that will be
    compliant with the community expectations (organization, naming,
    etc...). It takes user inputs and a project template and generate the
    skeleton of the modules.
 -  puppet-modulesync-configs
-   (https://github.com/openstack/puppet-modulesync-configs) : This
+   (https://opendev.org/x/puppet-modulesync-configs) : This
    project aims to gather in a single repository the files that are
    common and need to be kept in sync across all openstack/puppet-\*
    modules.
@@ -45,9 +45,9 @@ not intended for dynamic content and path (class name, provider,
 etc...), hence the use of cookiecutter and the existence of both
 projects.
 
-Modulesync: https://github.com/openstack/puppet-modulesync-configs
+Modulesync: https://opendev.org/x/puppet-modulesync-configs
 
-Cookiecutter: https://github.com/openstack/puppet-openstack-cookiecutter
+Cookiecutter: https://opendev.org/openstack/puppet-openstack-cookiecutter
 
 In practice
 ===========
@@ -62,7 +62,7 @@ Requirements :
 
 To make the boilerplating of a new Puppet module easier a script is
 provided.
-https://github.com/openstack/puppet-openstack-cookiecutter/blob/master/contrib/bootstrap.sh
+https://opendev.org/openstack/puppet-openstack-cookiecutter/blob/master/contrib/bootstrap.sh
 
 What it does is the following:
 
