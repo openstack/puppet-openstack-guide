@@ -31,7 +31,6 @@ Puppet OpenStack Modules
 * `Compute <http://opendev.org/openstack/puppet-nova/>`_ (*Nova*)
 * `Load Balancer <http://opendev.org/openstack/puppet-octavia/>`_ (*Octavia*)
 * `Oslo Libraries <http://opendev.org/openstack/puppet-oslo/>`_ (*Oslo*)
-* `Telemetry Event service <http://opendev.org/openstack/puppet-panko/>`_ (*Panko*)
 * `Benchmarking <http://opendev.org/openstack/puppet-rally/>`_ (*Rally*)
 * `Data Processing <http://opendev.org/openstack/puppet-sahara/>`_ (*Sahara*)
 * `Clustering <http://opendev.org/openstack/puppet-senlin/>`_ (*Senlin*)
