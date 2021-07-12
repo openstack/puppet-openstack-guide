@@ -17,7 +17,6 @@ Puppet OpenStack Modules
 * `EC2 API service <http://opendev.org/openstack/puppet-ec2api/>`_ (*EC2API*)
 * `Backup, Restore, and Disaster Recovery service <http://opendev.org/openstack/puppet-freezer/>`_ (*Freezer*)
 * `Image Service <http://opendev.org/openstack/puppet-glance/>`_ (*Glance*)
-* `GLare Artifact Repository <http://opendev.org/openstack/puppet-glare/>`_ (*Glare*)
 * `Time Series Database <http://opendev.org/openstack/puppet-gnocchi/>`_ (*Gnocchi*)
 * `Orchestration <http://opendev.org/openstack/puppet-heat/>`_ (*Heat*)
 * `Dashboard <http://opendev.org/openstack/puppet-horizon/>`_ (*Horizon*)
