@@ -91,8 +91,6 @@ Most Recent Modules releases
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-mistral_                 | `17.4.0 <http://docs.openstack.org/releasenotes/puppet-mistral/>`__              |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-monasca_                 | `6.4.0 <http://docs.openstack.org/releasenotes/puppet-monasca/>`__               |
-+---------------------------------+----------------------------------------------------------------------------------+
 | puppet-murano_                  | `17.4.0 <http://docs.openstack.org/releasenotes/puppet-murano/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-neutron_                 | `17.5.0 <http://docs.openstack.org/releasenotes/puppet-neutron/>`__              |
@@ -160,7 +158,6 @@ Most Recent Modules releases
 .. _puppet-magnum: https://opendev.org/openstack/puppet-magnum
 .. _puppet-manila: https://opendev.org/openstack/puppet-manila
 .. _puppet-mistral: https://opendev.org/openstack/puppet-mistral
-.. _puppet-monasca: https://opendev.org/openstack/puppet-monasca
 .. _puppet-murano: https://opendev.org/openstack/puppet-murano
 .. _puppet-neutron: https://opendev.org/openstack/puppet-neutron
 .. _puppet-nova: https://opendev.org/openstack/puppet-nova
