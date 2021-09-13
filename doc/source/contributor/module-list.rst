@@ -15,7 +15,6 @@ Puppet OpenStack Modules
 * `Rating service <http://opendev.org/openstack/puppet-cloudkitty/>`_ (*Cloudkitty*)
 * `DNS <http://opendev.org/openstack/puppet-designate/>`_ (*Designate*)
 * `EC2 API service <http://opendev.org/openstack/puppet-ec2api/>`_ (*EC2API*)
-* `Backup, Restore, and Disaster Recovery service <http://opendev.org/openstack/puppet-freezer/>`_ (*Freezer*)
 * `Image Service <http://opendev.org/openstack/puppet-glance/>`_ (*Glance*)
 * `Time Series Database <http://opendev.org/openstack/puppet-gnocchi/>`_ (*Gnocchi*)
 * `Orchestration <http://opendev.org/openstack/puppet-heat/>`_ (*Heat*)
