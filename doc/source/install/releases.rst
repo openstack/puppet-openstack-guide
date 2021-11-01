@@ -207,8 +207,6 @@ How to release Puppet modules
 
 .. note:: puppet-ceph should be done separately because the branches track ceph
           releases and not openstack releases.
-.. note:: puppet-pacemaker should also be done seperately because it is an
-          independent release
 
 Once the release is done, you can see the tarballs here:
 https://tarballs.openstack.org
