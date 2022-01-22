@@ -12,7 +12,7 @@ and `Functional Tests`_ sections and the |ci|_ documentation.
 Puppet OpenStack CI will verify your changes, but to save time it is
 better to run tests locally before submitting the patch.
 
-.. _ci: http://docs.openstack.org/developer/puppet-openstack-guide/ci.html
+.. _ci: /contributor/ci.html
 .. |ci| replace:: Continuous Integration
 
 

@@ -14,4 +14,4 @@ The modules are tested on Puppet 4 up to Queens and then Puppet 5 and 6 from the
 
 Puppet 3 or earlier is NOT supported. Puppet 4 is NOT supported as of the Train release.
 
-See `Continuous Integration <https://docs.openstack.org/puppet-openstack-guide/latest/contributor/ci.html>`_ to see what is currently tested.
+See `Continuous Integration </contributor/ci.html>`_ to see what is currently tested.
