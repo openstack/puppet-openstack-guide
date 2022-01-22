@@ -172,7 +172,6 @@ Most Recent Modules releases
 .. _puppet-qdr: https://opendev.org/openstack/puppet-qdr
 .. _puppet-rally: https://opendev.org/openstack/puppet-rally
 .. _puppet-sahara: https://opendev.org/openstack/puppet-sahara
-.. _puppet-senlin: https://opendev.org/openstack/puppet-senlin
 .. _puppet-swift: https://opendev.org/openstack/puppet-swift
 .. _puppet-tacker: https://opendev.org/openstack/puppet-tacker
 .. _puppet-tempest: https://opendev.org/openstack/puppet-tempest
