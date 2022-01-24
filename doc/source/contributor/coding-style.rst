@@ -119,16 +119,3 @@ Documentation
 -  Any change in interface (like new parameters, deprecations, and etc) or
    fundamental behavior should be documented in a release note. In Puppet OpenStack,
    we use `reno <https://docs.openstack.org/reno/latest/>`__ to maintain release notes.
-
-
-Asking for review
-=================
-
-Different ways to get reviewsː
-
--  Go on IRC ``#puppet-openstack`` (OFTC) and gently ask for
-   reviews. If you need to discuss about already reviewed code, you can
-   ping the reviewers.
--  Add your patch on the Puppet OpenStack `meeting <meetings.html>`_ Agenda (in Open Discussion section).
--  Use the `Mailing list <mailing-list.html>`_.
-
