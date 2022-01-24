@@ -35,7 +35,6 @@ Puppet OpenStack Modules
 * `Object Storage <http://opendev.org/openstack/puppet-swift/>`_ (*Swift*)
 * `NFV Orchestration service <http://opendev.org/openstack/puppet-tacker/>`_ (*Tacker*)
 * `Testing <http://opendev.org/openstack/puppet-tempest/>`_ (*Tempest*)
-* `Deployment <http://opendev.org/openstack/puppet-tripleo/>`_ (*TripleO*)
 * `Database Service <http://opendev.org/openstack/puppet-trove/>`_ (*Trove*)
 * `Root Cause Analysis <http://opendev.org/openstack/puppet-vitrage/>`_ (*Vitrage*)
 * `Resource Optimization <http://opendev.org/openstack/puppet-watcher/>`_ (*Watcher*)
