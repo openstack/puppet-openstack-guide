@@ -10,7 +10,7 @@ Coding Style
 - Make sure that what you're going to code is not already a work in
   progress
 - Make sure you're familiar with Puppet Syntax, Lint_, Rspec_ and Beaker_
-- If you want to create a new module, read `New Module <http://docs.openstack.org/developer/puppet-openstack-guide/new-module.html>`_.
+- If you want to create a new module, read `New Module <new-module.html>`_.
 
 .. _Lint: http://puppet-lint.com/
 .. _Rspec: http://rspec-puppet.com/
@@ -106,9 +106,7 @@ version constraints unless you have a specific requirement,
 Testing
 =======
 
-Everything about testing you can find here_.
-
-.. _here: https://docs.openstack.org/puppet-openstack-guide/latest/contributor/testing.html
+Everything about testing you can find `here <testing.html>`_.
 
 Documentation
 =============
@@ -131,6 +129,6 @@ Different ways to get reviewsː
 -  Go on IRC ``#puppet-openstack`` (OFTC) and gently ask for
    reviews. If you need to discuss about already reviewed code, you can
    ping the reviewers.
--  Add your patch on the Puppet OpenStack `meeting <http://docs.openstack.org/developer/puppet-openstack-guide/meetings.html>`_ Agenda (in Open Discussion section).
--  Use the `Mailing list <http://docs.openstack.org/developer/puppet-openstack-guide/mailing-list.html>`_.
+-  Add your patch on the Puppet OpenStack `meeting <meetings.html>`_ Agenda (in Open Discussion section).
+-  Use the `Mailing list <mailing-list.html>`_.
 
