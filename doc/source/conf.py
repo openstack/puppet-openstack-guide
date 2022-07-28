@@ -167,8 +167,8 @@ htmlhelp_basename = 'Puppet-OpenStack-Guidedoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'Puppet-OpenStack-guide.tex', u'Puppet OpenStack Guide',
-   u'OpenStack Contributors', 'manual'),
+  ('index', 'Puppet-OpenStack-guide.tex', 'Puppet OpenStack Guide',
+   'OpenStack Contributors', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -197,8 +197,8 @@ latex_documents = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'Puppet-OpenStack-guide', u'Puppet OpenStack Guide',
-   u'OpenStack Contributors', 'Puppet-OpenStack-guide',
+  ('index', 'Puppet-OpenStack-guide', 'Puppet OpenStack Guide',
+   'OpenStack Contributors', 'Puppet-OpenStack-guide',
    'Puppet OpenStack Guide.',
    'Miscellaneous'),
 ]
@@ -216,10 +216,10 @@ texinfo_documents = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'Puppet OpenStack Guide'
-epub_author = u'OpenStack Contributors'
-epub_publisher = u'OpenStack Contributors'
-epub_copyright = u'%s, OpenStack Contributors' % datetime.date.today().year
+epub_title = 'Puppet OpenStack Guide'
+epub_author = 'OpenStack Contributors'
+epub_publisher = 'OpenStack Contributors'
+epub_copyright = '%s, OpenStack Contributors' % datetime.date.today().year
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
