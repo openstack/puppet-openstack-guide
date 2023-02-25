@@ -33,7 +33,6 @@ Puppet OpenStack Modules
 * `Benchmarking <http://opendev.org/openstack/puppet-rally/>`_ (*Rally*)
 * `Data Processing <http://opendev.org/openstack/puppet-sahara/>`_ (*Sahara*)
 * `Object Storage <http://opendev.org/openstack/puppet-swift/>`_ (*Swift*)
-* `NFV Orchestration service <http://opendev.org/openstack/puppet-tacker/>`_ (*Tacker*)
 * `Testing <http://opendev.org/openstack/puppet-tempest/>`_ (*Tempest*)
 * `Database Service <http://opendev.org/openstack/puppet-trove/>`_ (*Trove*)
 * `Root Cause Analysis <http://opendev.org/openstack/puppet-vitrage/>`_ (*Vitrage*)

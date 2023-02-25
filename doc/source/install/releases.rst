@@ -125,8 +125,6 @@ Most Recent Modules releases
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-swift_                   | `17.4.1 <http://docs.openstack.org/releasenotes/puppet-swift/>`__                |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-tacker_                  | `19.4.0 <http://docs.openstack.org/releasenotes/puppet-tacker/>`__               |
-+---------------------------------+----------------------------------------------------------------------------------+
 | puppet-tempest_                 | `19.4.0 <http://docs.openstack.org/releasenotes/puppet-tempest/>`__              |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-trove_                   | `19.4.0 <http://docs.openstack.org/releasenotes/puppet-trove/>`__                |
@@ -173,7 +171,6 @@ Most Recent Modules releases
 .. _puppet-rally: https://opendev.org/openstack/puppet-rally
 .. _puppet-sahara: https://opendev.org/openstack/puppet-sahara
 .. _puppet-swift: https://opendev.org/openstack/puppet-swift
-.. _puppet-tacker: https://opendev.org/openstack/puppet-tacker
 .. _puppet-tempest: https://opendev.org/openstack/puppet-tempest
 .. _puppet-trove: https://opendev.org/openstack/puppet-trove
 .. _puppet-vitrage: https://opendev.org/openstack/puppet-vitrage
