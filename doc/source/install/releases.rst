@@ -119,8 +119,6 @@ Most Recent Modules releases
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-qdr_                     | `8.4.0 <http://docs.openstack.org/releasenotes/puppet-qdr/>`__                   |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-rally_                   | `7.4.0 <http://docs.openstack.org/releasenotes/puppet-rally/>`__                 |
-+---------------------------------+----------------------------------------------------------------------------------+
 | puppet-sahara_                  | `19.4.0 <http://docs.openstack.org/releasenotes/puppet-sahara/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-swift_                   | `17.4.1 <http://docs.openstack.org/releasenotes/puppet-swift/>`__                |
@@ -168,7 +166,6 @@ Most Recent Modules releases
 .. _puppet-ovn: https://opendev.org/openstack/puppet-ovn
 .. _puppet-placement: https://opendev.org/openstack/puppet-placement
 .. _puppet-qdr: https://opendev.org/openstack/puppet-qdr
-.. _puppet-rally: https://opendev.org/openstack/puppet-rally
 .. _puppet-sahara: https://opendev.org/openstack/puppet-sahara
 .. _puppet-swift: https://opendev.org/openstack/puppet-swift
 .. _puppet-tempest: https://opendev.org/openstack/puppet-tempest
