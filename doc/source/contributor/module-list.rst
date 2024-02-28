@@ -30,7 +30,6 @@ Puppet OpenStack Modules
 * `Load Balancer <http://opendev.org/openstack/puppet-octavia/>`_ (*Octavia*)
 * `Oslo Libraries <http://opendev.org/openstack/puppet-oslo/>`_ (*Oslo*)
 * `Placement <http://opendev.org/openstack/puppet-placement/>`_ (*Placement*)
-* `Data Processing <http://opendev.org/openstack/puppet-sahara/>`_ (*Sahara*)
 * `Object Storage <http://opendev.org/openstack/puppet-swift/>`_ (*Swift*)
 * `Testing <http://opendev.org/openstack/puppet-tempest/>`_ (*Tempest*)
 * `Database Service <http://opendev.org/openstack/puppet-trove/>`_ (*Trove*)
