@@ -81,8 +81,6 @@ Most Recent Modules releases
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-designate_               | `23.0.0 <http://docs.openstack.org/releasenotes/puppet-designate/>`__            |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-ec2api_                  | `23.0.0 <http://docs.openstack.org/releasenotes/puppet-ec2api/>`__               |
-+---------------------------------+----------------------------------------------------------------------------------+
 | puppet-glance_                  | `23.0.0 <http://docs.openstack.org/releasenotes/puppet-glance/>`__               |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-gnocchi_                 | `23.0.0 <http://docs.openstack.org/releasenotes/puppet-gnocchi/>`__              |
@@ -147,7 +145,6 @@ Most Recent Modules releases
 .. _puppet-cinder: https://opendev.org/openstack/puppet-cinder
 .. _puppet-cloudkitty: https://opendev.org/openstack/puppet-cloudkitty
 .. _puppet-designate: https://opendev.org/openstack/puppet-designate
-.. _puppet-ec2api: https://opendev.org/openstack/puppet-ec2api
 .. _puppet-glance: https://opendev.org/openstack/puppet-glance
 .. _puppet-gnocchi: https://opendev.org/openstack/puppet-gnocchi
 .. _puppet-heat: https://opendev.org/openstack/puppet-heat

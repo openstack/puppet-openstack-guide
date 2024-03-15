@@ -14,7 +14,6 @@ Puppet OpenStack Modules
 * `Block Storage <http://opendev.org/openstack/puppet-cinder/>`_ (*Cinder*)
 * `Rating service <http://opendev.org/openstack/puppet-cloudkitty/>`_ (*Cloudkitty*)
 * `DNS <http://opendev.org/openstack/puppet-designate/>`_ (*Designate*)
-* `EC2 API service <http://opendev.org/openstack/puppet-ec2api/>`_ (*EC2API*)
 * `Image Service <http://opendev.org/openstack/puppet-glance/>`_ (*Glance*)
 * `Time Series Database <http://opendev.org/openstack/puppet-gnocchi/>`_ (*Gnocchi*)
 * `Orchestration <http://opendev.org/openstack/puppet-heat/>`_ (*Heat*)
