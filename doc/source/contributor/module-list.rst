@@ -23,7 +23,6 @@ Puppet OpenStack Modules
 * `Containers Orchestration <http://opendev.org/openstack/puppet-magnum/>`_ (*Magnum*)
 * `Shared Filesystems <http://opendev.org/openstack/puppet-manila/>`_ (*Manila*)
 * `Workflow Service <http://opendev.org/openstack/puppet-mistral/>`_ (*Mistral*)
-* `Application Catalog <http://opendev.org/openstack/puppet-murano/>`_ (*Murano*)
 * `Networking <http://opendev.org/openstack/puppet-neutron/>`_ (*Neutron*)
 * `Compute <http://opendev.org/openstack/puppet-nova/>`_ (*Nova*)
 * `Load Balancer <http://opendev.org/openstack/puppet-octavia/>`_ (*Octavia*)
