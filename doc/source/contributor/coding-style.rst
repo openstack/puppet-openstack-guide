@@ -9,12 +9,12 @@ Coding Style
 - Read this page
 - Make sure that what you're going to code is not already a work in
   progress
-- Make sure you're familiar with Puppet Syntax, Lint_, Rspec_ and Beaker_
+- Make sure you're familiar with Puppet Syntax, Lint_, Rspec_ and Litmus_
 - If you want to create a new module, read `New Module <new-module.html>`_.
 
 .. _Lint: http://puppet-lint.com/
 .. _Rspec: http://rspec-puppet.com/
-.. _Beaker: https://github.com/puppetlabs/beaker
+.. _Litmus: https://puppetlabs.github.io/litmus/
 
 
 Best practices
