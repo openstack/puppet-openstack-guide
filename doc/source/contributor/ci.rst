@@ -45,23 +45,11 @@ OpenStack modules: The code that configures Jenkins jobs is hosted by
        job is non-voting, please raise a bug in Launchpad to make sure someone
        has a look and maybe update the module to work with latest version of
        Puppet.
-   * - puppet-openstack-beaker-*N*-*platform*
-     - Beaker jobs to do functional testing. It will prepare the Puppet
-       environment on 2 different systems (CentOS and Ubuntu), run
-       Puppet to configure the module resources and run some tests with
-       serverspec.
-     - Yes
-     - Read the job logs. Sometimes, the job fails because of packaging issues
-       or mirrors downtime. Please report a bug for this so we can find
-       workarounds. Otherwise, make sure your patch is supposed to work with
-       current tests or you'll have to adapt the tests to change the expected
-       behavior. `More documentation about Beaker
-       <https://github.com/puppetlabs/beaker/wiki>`__
    * - puppet-openstack-litmus-*N*-*platform*
      - Litmus jobs to do functional testing. It will prepare the Puppet
        environment on 2 different systems (CentOS and Ubuntu), run
        Puppet to configure the module resources and run some tests with
-       serverspec. Litmus has replaced Beaker since Victoria release.
+       serverspec.
      - Yes
      - Read the job logs. Sometimes, the job fails because of packaging issues
        or mirrors downtime. Please report a bug for this so we can find
