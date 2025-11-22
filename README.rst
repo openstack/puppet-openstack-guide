@@ -1,15 +1,11 @@
-========================
-Team and repository tags
-========================
-
-.. image:: https://governance.openstack.org/tc/badges/puppet-openstack-guide.svg
-    :target: https://governance.openstack.org/tc/reference/tags/index.html
-
-.. Change things from this point on
-
 ======================
 Puppet OpenStack Guide
 ======================
+
+.. image:: https://governance.openstack.org/tc/badges/puppet-openstack-guide.svg
+
+.. Change things from this point on
+
 To build the guide, execute the following command::
 
   $ tox
