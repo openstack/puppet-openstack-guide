@@ -31,7 +31,6 @@ Puppet OpenStack Modules
 * `Object Storage <http://opendev.org/openstack/puppet-swift/>`_ (*Swift*)
 * `Testing <http://opendev.org/openstack/puppet-tempest/>`_ (*Tempest*)
 * `Database Service <http://opendev.org/openstack/puppet-trove/>`_ (*Trove*)
-* `Root Cause Analysis <http://opendev.org/openstack/puppet-vitrage/>`_ (*Vitrage*)
 * `Resource Optimization <http://opendev.org/openstack/puppet-watcher/>`_ (*Watcher*)
 * `Message Service <http://opendev.org/openstack/puppet-zaqar/>`_ (*Zaqar*)
 

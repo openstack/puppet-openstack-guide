@@ -133,8 +133,6 @@ Most Recent Modules releases
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-trove_                   | `27.0.0 <http://docs.openstack.org/releasenotes/puppet-trove/>`__                |
 +---------------------------------+----------------------------------------------------------------------------------+
-| puppet-vitrage_                 | `17.0.0 <http://docs.openstack.org/releasenotes/puppet-vitrage/>`__              |
-+---------------------------------+----------------------------------------------------------------------------------+
 | puppet-vswitch_                 | `23.0.0 <http://docs.openstack.org/releasenotes/puppet-vswitch/>`__              |
 +---------------------------------+----------------------------------------------------------------------------------+
 | puppet-watcher_                 | `27.0.0 <http://docs.openstack.org/releasnotes/puppet-watcher/>`__               |
@@ -172,7 +170,6 @@ Most Recent Modules releases
 .. _puppet-swift: https://opendev.org/openstack/puppet-swift
 .. _puppet-tempest: https://opendev.org/openstack/puppet-tempest
 .. _puppet-trove: https://opendev.org/openstack/puppet-trove
-.. _puppet-vitrage: https://opendev.org/openstack/puppet-vitrage
 .. _puppet-vswitch: https://opendev.org/openstack/puppet-vswitch
 .. _puppet-watcher: https://opendev.org/openstack/puppet-watcher
 .. _puppet-zaqar: https://opendev.org/openstack/puppet-zaqar
